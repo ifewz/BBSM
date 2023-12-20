@@ -1,0 +1,4461 @@
+interface: eth0 (172.31.16.0/255.255.240.0)
+filter: ( port 6543 ) and ((ip || ip6) || (vlan && (ip || ip6)))
+######
+T 159.180.251.47:6455 -> 172.31.31.148:6543 [AP] #6
+GET / HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+Upgrade-Insecure-Requests: 1.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+.
+
+###
+T 172.31.31.148:6543 -> 159.180.251.47:6455 [AP] #9
+HTTP/1.1 200 OK.
+Content-Length: 3332.
+Content-Type: text/html; charset=UTF-8.
+Date: Wed, 20 Dec 2023 14:39:59 GMT.
+Server: waitress.
+.
+
+#
+T 172.31.31.148:6543 -> 159.180.251.47:6455 [AP] #10
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="pyramid web application">
+    <meta name="author" content="Pylons Project">
+    <link rel="shortcut icon" href="http://52.201.230.99:6543/static/pyramid-16x16.png">
+
+    <title>Cookiecutter Starter project for the Pyramid Web Framework</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Custom styles for this scaffold -->
+    <link href="http://52.201.230.99:6543/static/theme.css" rel="stylesheet">
+
+    <!-- HTML5 shiv and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js" integrity="sha384-0s5Pv64cNZJieYFkXYOTId2HMA2Lfb6q2nAcx2n0RTLUnCAoTTsS0nKEO27XyKcY" crossorigin="anonymous"></script>
+      <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js" integrity="sha384-ZoaMbDF+4LeFxg6WdScQ9nnR1QC2MIRxA1O9KWEXQwns1G8UNyIEZIQidzb0T1fo" crossorigin="anonymous"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="starter-template">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2">
+            <img class="logo img-responsive" src="http://52.201.230.99:6543/static/pyramid.png" alt="pyramid web framework">
+          </div>
+          <div class="col-md-10">
+            <div>
+
+        <div class="content">
+            <h1><span class="font-semi-bold">Pyramid</span> <span class="smaller">Starter project</span></h1>
+            <p class="lead">Welcome to <span class="font-normal">Pyramid_bbsm</span>, a&nbsp;Pyramid
+                application generated&nbsp;by<br><span class="font-normal">Cookiecutter</span>.</p>
+        </div>
+
+    </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="links">
+            <ul>
+              <li><i class="glyphicon glyphicon-cog icon-muted"></i><a href="https://github.com/Pylons/pyramid">Github Project</a></li>
+              <li><i class="glyphicon glyphicon-globe icon-muted"></i><a href="https://webchat.freenode.net/?channels=pyramid">IRC Channel</a></li>
+              <li><i class="glyphicon glyphicon-home icon-muted"></i><a href="https://pylonsproject.org">Pylons Project</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="copyright">
+            Copyright &copy; Pylons Project
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of th
+#
+T 172.31.31.148:6543 -> 159.180.251.47:6455 [AP] #11
+e document so the pages load faster -->
+    <script src="//code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+
+###
+T 159.180.251.47:59704 -> 172.31.31.148:6543 [A] #14
+.
+##
+T 159.180.251.47:6455 -> 172.31.31.148:6543 [A] #16
+.
+#####
+T 159.180.251.47:6455 -> 172.31.31.148:6543 [A] #21
+.
+############
+T 159.180.251.47:34084 -> 172.31.31.148:6543 [A] #33
+.
+##
+T 159.180.251.47:37567 -> 172.31.31.148:6543 [A] #35
+.
+##############
+T 159.180.251.47:52446 -> 172.31.31.148:6543 [A] #49
+.
+##
+T 159.180.251.47:19417 -> 172.31.31.148:6543 [A] #51
+.
+##############
+T 159.180.251.47:61410 -> 172.31.31.148:6543 [A] #65
+.
+##
+T 159.180.251.47:44956 -> 172.31.31.148:6543 [A] #67
+.
+##############
+T 159.180.251.47:62430 -> 172.31.31.148:6543 [AP] #81
+GET / HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+Cache-Control: max-age=0.
+Upgrade-Insecure-Requests: 1.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+.
+
+##
+T 172.31.31.148:6543 -> 159.180.251.47:62430 [AP] #83
+HTTP/1.1 500 Internal Server Error.
+Connection: close.
+Content-Length: 110.
+Content-Type: text/plain; charset=utf-8.
+Date: Wed, 20 Dec 2023 15:43:15 GMT.
+Server: waitress.
+.
+
+#
+T 172.31.31.148:6543 -> 159.180.251.47:62430 [AP] #84
+Internal Server Error.
+.
+The server encountered an unexpected internal server error.
+.
+(generated by waitress)
+#######
+T 159.180.251.47:61918 -> 172.31.31.148:6543 [AP] #91
+GET /favicon.ico HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8.
+Referer: http://52.201.230.99:6543/.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+.
+
+###
+T 172.31.31.148:6543 -> 159.180.251.47:61918 [AP] #94
+HTTP/1.1 500 Internal Server Error.
+Connection: close.
+Content-Length: 110.
+Content-Type: text/plain; charset=utf-8.
+Date: Wed, 20 Dec 2023 15:43:16 GMT.
+Server: waitress.
+.
+
+#
+T 172.31.31.148:6543 -> 159.180.251.47:61918 [AP] #95
+Internal Server Error.
+.
+The server encountered an unexpected internal server error.
+.
+(generated by waitress)
+#####
+T 159.180.251.47:10624 -> 172.31.31.148:6543 [AP] #100
+GET / HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+Cache-Control: max-age=0.
+Upgrade-Insecure-Requests: 1.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+.
+
+##
+T 172.31.31.148:6543 -> 159.180.251.47:10624 [AP] #102
+HTTP/1.1 500 Internal Server Error.
+Connection: close.
+Content-Length: 110.
+Content-Type: text/plain; charset=utf-8.
+Date: Wed, 20 Dec 2023 15:43:23 GMT.
+Server: waitress.
+.
+
+#
+T 172.31.31.148:6543 -> 159.180.251.47:10624 [AP] #103
+Internal Server Error.
+.
+The server encountered an unexpected internal server error.
+.
+(generated by waitress)
+##########
+T 159.180.251.47:60480 -> 172.31.31.148:6543 [AP] #113
+GET /favicon.ico HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8.
+Referer: http://52.201.230.99:6543/.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+.
+
+##
+T 172.31.31.148:6543 -> 159.180.251.47:60480 [AP] #115
+HTTP/1.1 500 Internal Server Error.
+Connection: close.
+Content-Length: 110.
+Content-Type: text/plain; charset=utf-8.
+Date: Wed, 20 Dec 2023 15:43:23 GMT.
+Server: waitress.
+.
+
+#
+T 172.31.31.148:6543 -> 159.180.251.47:60480 [AP] #116
+Internal Server Error.
+.
+The server encountered an unexpected internal server error.
+.
+(generated by waitress)
+#########
+T 159.180.251.47:51082 -> 172.31.31.148:6543 [A] #125
+.
+##
+T 159.180.251.47:55601 -> 172.31.31.148:6543 [A] #127
+.
+##############
+T 159.180.251.47:56168 -> 172.31.31.148:6543 [A] #141
+.
+##
+T 159.180.251.47:64494 -> 172.31.31.148:6543 [A] #143
+.
+##############
+T 159.180.251.47:44051 -> 172.31.31.148:6543 [AP] #157
+GET / HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+Cache-Control: max-age=0.
+Upgrade-Insecure-Requests: 1.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+.
+
+##
+T 172.31.31.148:6543 -> 159.180.251.47:44051 [AP] #159
+HTTP/1.1 500 Internal Server Error.
+Connection: close.
+Content-Length: 110.
+Content-Type: text/plain; charset=utf-8.
+Date: Wed, 20 Dec 2023 15:51:37 GMT.
+Server: waitress.
+.
+
+#
+T 172.31.31.148:6543 -> 159.180.251.47:44051 [AP] #160
+Internal Server Error.
+.
+The server encountered an unexpected internal server error.
+.
+(generated by waitress)
+#######
+T 159.180.251.47:61444 -> 172.31.31.148:6543 [AP] #167
+GET /favicon.ico HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8.
+Referer: http://52.201.230.99:6543/.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+.
+
+##
+T 172.31.31.148:6543 -> 159.180.251.47:61444 [AP] #169
+HTTP/1.1 404 Not Found.
+Content-Length: 3218.
+Content-Type: text/html; charset=UTF-8.
+Date: Wed, 20 Dec 2023 15:51:38 GMT.
+Server: waitress.
+.
+
+#
+T 172.31.31.148:6543 -> 159.180.251.47:61444 [AP] #170
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="pyramid web application">
+    <meta name="author" content="Pylons Project">
+    <link rel="shortcut icon" href="http://52.201.230.99:6543/static/pyramid-16x16.png">
+
+    <title>Cookiecutter Starter project for the Pyramid Web Framework</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Custom styles for this scaffold -->
+    <link href="http://52.201.230.99:6543/static/theme.css" rel="stylesheet">
+
+    <!-- HTML5 shiv and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js" integrity="sha384-0s5Pv64cNZJieYFkXYOTId2HMA2Lfb6q2nAcx2n0RTLUnCAoTTsS0nKEO27XyKcY" crossorigin="anonymous"></script>
+      <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js" integrity="sha384-ZoaMbDF+4LeFxg6WdScQ9nnR1QC2MIRxA1O9KWEXQwns1G8UNyIEZIQidzb0T1fo" crossorigin="anonymous"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="starter-template">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2">
+            <img class="logo img-responsive" src="http://52.201.230.99:6543/static/pyramid.png" alt="pyramid web framework">
+          </div>
+          <div class="col-md-10">
+            <div>
+
+        <div class="content">
+            <h1><span class="font-semi-bold">Pyramid</span> <span class="smaller">Starter project</span></h1>
+            <p class="lead"><span class="font-semi-bold">404</span> Page Not Found</p>
+        </div>
+
+    </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="links">
+            <ul>
+              <li><i class="glyphicon glyphicon-cog icon-muted"></i><a href="https://github.com/Pylons/pyramid">Github Project</a></li>
+              <li><i class="glyphicon glyphicon-globe icon-muted"></i><a href="https://webchat.freenode.net/?channels=pyramid">IRC Channel</a></li>
+              <li><i class="glyphicon glyphicon-home icon-muted"></i><a href="https://pylonsproject.org">Pylons Project</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="copyright">
+            Copyright &copy; Pylons Project
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="//code.jquery.com/jquery-1.12.4.min.js" integrity="sha256
+#
+T 172.31.31.148:6543 -> 159.180.251.47:61444 [AP] #171
+-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+
+###
+T 159.180.251.47:61444 -> 172.31.31.148:6543 [AP] #174
+GET / HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+Cache-Control: max-age=0.
+Upgrade-Insecure-Requests: 1.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+.
+
+##
+T 172.31.31.148:6543 -> 159.180.251.47:61444 [AP] #176
+HTTP/1.1 500 Internal Server Error.
+Connection: close.
+Content-Length: 110.
+Content-Type: text/plain; charset=utf-8.
+Date: Wed, 20 Dec 2023 15:51:38 GMT.
+Server: waitress.
+.
+
+#
+T 172.31.31.148:6543 -> 159.180.251.47:61444 [AP] #177
+Internal Server Error.
+.
+The server encountered an unexpected internal server error.
+.
+(generated by waitress)
+#####
+T 159.180.251.47:47207 -> 172.31.31.148:6543 [AP] #182
+GET / HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+Cache-Control: max-age=0.
+Upgrade-Insecure-Requests: 1.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+.
+
+####
+T 172.31.31.148:6543 -> 159.180.251.47:47207 [AP] #186
+HTTP/1.1 500 Internal Server Error.
+Connection: close.
+Content-Length: 110.
+Content-Type: text/plain; charset=utf-8.
+Date: Wed, 20 Dec 2023 15:51:39 GMT.
+Server: waitress.
+.
+
+#
+T 172.31.31.148:6543 -> 159.180.251.47:47207 [AP] #187
+Internal Server Error.
+.
+The server encountered an unexpected internal server error.
+.
+(generated by waitress)
+########
+T 159.180.251.47:23989 -> 172.31.31.148:6543 [AP] #195
+GET / HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+Cache-Control: max-age=0.
+Upgrade-Insecure-Requests: 1.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+.
+
+##
+T 172.31.31.148:6543 -> 159.180.251.47:23989 [AP] #197
+HTTP/1.1 500 Internal Server Error.
+Connection: close.
+Content-Length: 110.
+Content-Type: text/plain; charset=utf-8.
+Date: Wed, 20 Dec 2023 15:51:39 GMT.
+Server: waitress.
+.
+
+#
+T 172.31.31.148:6543 -> 159.180.251.47:23989 [AP] #198
+Internal Server Error.
+.
+The server encountered an unexpected internal server error.
+.
+(generated by waitress)
+#######
+T 159.180.251.47:7741 -> 172.31.31.148:6543 [AP] #205
+GET / HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+Cache-Control: max-age=0.
+Upgrade-Insecure-Requests: 1.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+.
+
+##
+T 172.31.31.148:6543 -> 159.180.251.47:7741 [AP] #207
+HTTP/1.1 500 Internal Server Error.
+Connection: close.
+Content-Length: 110.
+Content-Type: text/plain; charset=utf-8.
+Date: Wed, 20 Dec 2023 15:51:39 GMT.
+Server: waitress.
+.
+
+#
+T 172.31.31.148:6543 -> 159.180.251.47:7741 [AP] #208
+Internal Server Error.
+.
+The server encountered an unexpected internal server error.
+.
+(generated by waitress)
+###########
+T 159.180.251.47:61842 -> 172.31.31.148:6543 [AP] #219
+GET / HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+Pragma: no-cache.
+Cache-Control: no-cache.
+Upgrade-Insecure-Requests: 1.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+.
+
+##
+T 172.31.31.148:6543 -> 159.180.251.47:61842 [AP] #221
+HTTP/1.1 500 Internal Server Error.
+Connection: close.
+Content-Length: 110.
+Content-Type: text/plain; charset=utf-8.
+Date: Wed, 20 Dec 2023 15:51:40 GMT.
+Server: waitress.
+.
+
+#
+T 172.31.31.148:6543 -> 159.180.251.47:61842 [AP] #222
+Internal Server Error.
+.
+The server encountered an unexpected internal server error.
+.
+(generated by waitress)
+#######
+T 159.180.251.47:52725 -> 172.31.31.148:6543 [AP] #229
+GET /favicon.ico HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+Pragma: no-cache.
+Cache-Control: no-cache.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8.
+Referer: http://52.201.230.99:6543/.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+.
+
+##
+T 172.31.31.148:6543 -> 159.180.251.47:52725 [AP] #231
+HTTP/1.1 404 Not Found.
+Content-Length: 3218.
+Content-Type: text/html; charset=UTF-8.
+Date: Wed, 20 Dec 2023 15:51:40 GMT.
+Server: waitress.
+.
+
+#
+T 172.31.31.148:6543 -> 159.180.251.47:52725 [AP] #232
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="pyramid web application">
+    <meta name="author" content="Pylons Project">
+    <link rel="shortcut icon" href="http://52.201.230.99:6543/static/pyramid-16x16.png">
+
+    <title>Cookiecutter Starter project for the Pyramid Web Framework</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Custom styles for this scaffold -->
+    <link href="http://52.201.230.99:6543/static/theme.css" rel="stylesheet">
+
+    <!-- HTML5 shiv and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js" integrity="sha384-0s5Pv64cNZJieYFkXYOTId2HMA2Lfb6q2nAcx2n0RTLUnCAoTTsS0nKEO27XyKcY" crossorigin="anonymous"></script>
+      <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js" integrity="sha384-ZoaMbDF+4LeFxg6WdScQ9nnR1QC2MIRxA1O9KWEXQwns1G8UNyIEZIQidzb0T1fo" crossorigin="anonymous"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="starter-template">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2">
+            <img class="logo img-responsive" src="http://52.201.230.99:6543/static/pyramid.png" alt="pyramid web framework">
+          </div>
+          <div class="col-md-10">
+            <div>
+
+        <div class="content">
+            <h1><span class="font-semi-bold">Pyramid</span> <span class="smaller">Starter project</span></h1>
+            <p class="lead"><span class="font-semi-bold">404</span> Page Not Found</p>
+        </div>
+
+    </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="links">
+            <ul>
+              <li><i class="glyphicon glyphicon-cog icon-muted"></i><a href="https://github.com/Pylons/pyramid">Github Project</a></li>
+              <li><i class="glyphicon glyphicon-globe icon-muted"></i><a href="https://webchat.freenode.net/?channels=pyramid">IRC Channel</a></li>
+              <li><i class="glyphicon glyphicon-home icon-muted"></i><a href="https://pylonsproject.org">Pylons Project</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="copyright">
+            Copyright &copy; Pylons Project
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="//code.jquery.com/jquery-1.12.4.min.js" integrity="sha256
+#
+T 172.31.31.148:6543 -> 159.180.251.47:52725 [AP] #233
+-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+
+#################
+T 159.180.251.47:44854 -> 172.31.31.148:6543 [AP] #250
+GET / HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+Cache-Control: max-age=0.
+Upgrade-Insecure-Requests: 1.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+.
+
+##
+T 172.31.31.148:6543 -> 159.180.251.47:44854 [AP] #252
+HTTP/1.1 500 Internal Server Error.
+Connection: close.
+Content-Length: 110.
+Content-Type: text/plain; charset=utf-8.
+Date: Wed, 20 Dec 2023 15:51:46 GMT.
+Server: waitress.
+.
+
+#
+T 172.31.31.148:6543 -> 159.180.251.47:44854 [AP] #253
+Internal Server Error.
+.
+The server encountered an unexpected internal server error.
+.
+(generated by waitress)
+########
+T 159.180.251.47:64000 -> 172.31.31.148:6543 [A] #261
+.
+##
+T 159.180.251.47:51729 -> 172.31.31.148:6543 [A] #263
+.
+##############
+T 159.180.251.47:59989 -> 172.31.31.148:6543 [AP] #277
+GET / HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+Cache-Control: max-age=0.
+Upgrade-Insecure-Requests: 1.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+.
+
+##
+T 172.31.31.148:6543 -> 159.180.251.47:59989 [AP] #279
+HTTP/1.1 500 Internal Server Error.
+Connection: close.
+Content-Length: 110.
+Content-Type: text/plain; charset=utf-8.
+Date: Wed, 20 Dec 2023 15:59:16 GMT.
+Server: waitress.
+.
+
+#
+T 172.31.31.148:6543 -> 159.180.251.47:59989 [AP] #280
+Internal Server Error.
+.
+The server encountered an unexpected internal server error.
+.
+(generated by waitress)
+######################
+T 159.180.251.47:30089 -> 172.31.31.148:6543 [AP] #302
+GET / HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+Cache-Control: max-age=0.
+Upgrade-Insecure-Requests: 1.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+.
+
+##
+T 172.31.31.148:6543 -> 159.180.251.47:30089 [AP] #304
+HTTP/1.1 500 Internal Server Error.
+Connection: close.
+Content-Length: 110.
+Content-Type: text/plain; charset=utf-8.
+Date: Wed, 20 Dec 2023 16:00:02 GMT.
+Server: waitress.
+.
+
+#
+T 172.31.31.148:6543 -> 159.180.251.47:30089 [AP] #305
+Internal Server Error.
+.
+The server encountered an unexpected internal server error.
+.
+(generated by waitress)
+########
+T 159.180.251.47:64078 -> 172.31.31.148:6543 [AP] #313
+GET / HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+Cache-Control: max-age=0.
+Upgrade-Insecure-Requests: 1.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+.
+
+##
+T 172.31.31.148:6543 -> 159.180.251.47:64078 [AP] #315
+HTTP/1.1 500 Internal Server Error.
+Connection: close.
+Content-Length: 110.
+Content-Type: text/plain; charset=utf-8.
+Date: Wed, 20 Dec 2023 16:00:04 GMT.
+Server: waitress.
+.
+
+#
+T 172.31.31.148:6543 -> 159.180.251.47:64078 [AP] #316
+Internal Server Error.
+.
+The server encountered an unexpected internal server error.
+.
+(generated by waitress)
+########
+T 159.180.251.47:55415 -> 172.31.31.148:6543 [A] #324
+.
+##
+T 159.180.251.47:30194 -> 172.31.31.148:6543 [A] #326
+.
+################
+T 159.180.251.47:22349 -> 172.31.31.148:6543 [AP] #342
+GET / HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+Cache-Control: max-age=0.
+Upgrade-Insecure-Requests: 1.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+.
+
+##
+T 172.31.31.148:6543 -> 159.180.251.47:22349 [AP] #344
+HTTP/1.1 500 Internal Server Error.
+Connection: close.
+Content-Length: 110.
+Content-Type: text/plain; charset=utf-8.
+Date: Wed, 20 Dec 2023 16:03:07 GMT.
+Server: waitress.
+.
+
+#
+T 172.31.31.148:6543 -> 159.180.251.47:22349 [AP] #345
+Internal Server Error.
+.
+The server encountered an unexpected internal server error.
+.
+(generated by waitress)
+########
+T 159.180.251.47:57448 -> 172.31.31.148:6543 [AP] #353
+GET / HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+Cache-Control: max-age=0.
+Upgrade-Insecure-Requests: 1.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+.
+
+##
+T 172.31.31.148:6543 -> 159.180.251.47:57448 [AP] #355
+HTTP/1.1 500 Internal Server Error.
+Connection: close.
+Content-Length: 110.
+Content-Type: text/plain; charset=utf-8.
+Date: Wed, 20 Dec 2023 16:03:08 GMT.
+Server: waitress.
+.
+
+#
+T 172.31.31.148:6543 -> 159.180.251.47:57448 [AP] #356
+Internal Server Error.
+.
+The server encountered an unexpected internal server error.
+.
+(generated by waitress)
+##########################################
+T 159.180.251.47:38567 -> 172.31.31.148:6543 [AP] #398
+GET / HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+Cache-Control: max-age=0.
+Upgrade-Insecure-Requests: 1.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+.
+
+##
+T 172.31.31.148:6543 -> 159.180.251.47:38567 [AP] #400
+HTTP/1.1 500 Internal Server Error.
+Connection: close.
+Content-Length: 110.
+Content-Type: text/plain; charset=utf-8.
+Date: Wed, 20 Dec 2023 16:03:46 GMT.
+Server: waitress.
+.
+
+#
+T 172.31.31.148:6543 -> 159.180.251.47:38567 [AP] #401
+Internal Server Error.
+.
+The server encountered an unexpected internal server error.
+.
+(generated by waitress)
+######################
+T 159.180.251.47:47636 -> 172.31.31.148:6543 [AP] #423
+GET / HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+Cache-Control: max-age=0.
+Upgrade-Insecure-Requests: 1.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+.
+
+##
+T 172.31.31.148:6543 -> 159.180.251.47:47636 [AP] #425
+HTTP/1.1 500 Internal Server Error.
+Connection: close.
+Content-Length: 110.
+Content-Type: text/plain; charset=utf-8.
+Date: Wed, 20 Dec 2023 16:04:02 GMT.
+Server: waitress.
+.
+
+#
+T 172.31.31.148:6543 -> 159.180.251.47:47636 [AP] #426
+Internal Server Error.
+.
+The server encountered an unexpected internal server error.
+.
+(generated by waitress)
+######################
+T 159.180.251.47:48339 -> 172.31.31.148:6543 [AP] #448
+GET / HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+Cache-Control: max-age=0.
+Upgrade-Insecure-Requests: 1.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+.
+
+##
+T 172.31.31.148:6543 -> 159.180.251.47:48339 [AP] #450
+HTTP/1.1 200 OK.
+Content-Length: 2995.
+Content-Type: text/html; charset=UTF-8.
+Date: Wed, 20 Dec 2023 16:04:32 GMT.
+Server: waitress.
+.
+
+#
+T 172.31.31.148:6543 -> 159.180.251.47:48339 [AP] #451
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="pyramid web application">
+    <meta name="author" content="Pylons Project">
+    <link rel="shortcut icon" href="http://52.201.230.99:6543/static/pyramid-16x16.png">
+
+    <title>Cookiecutter Starter project for the Pyramid Web Framework</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Custom styles for this scaffold -->
+    <link href="http://52.201.230.99:6543/static/theme.css" rel="stylesheet">
+
+    <!-- HTML5 shiv and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js" integrity="sha384-0s5Pv64cNZJieYFkXYOTId2HMA2Lfb6q2nAcx2n0RTLUnCAoTTsS0nKEO27XyKcY" crossorigin="anonymous"></script>
+      <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js" integrity="sha384-ZoaMbDF+4LeFxg6WdScQ9nnR1QC2MIRxA1O9KWEXQwns1G8UNyIEZIQidzb0T1fo" crossorigin="anonymous"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="starter-template">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2">
+            <img class="logo img-responsive" src="http://52.201.230.99:6543/static/pyramid.png" alt="pyramid web framework">
+          </div>
+          <div class="col-md-10">
+            <div>No content</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="links">
+            <ul>
+              <li><i class="glyphicon glyphicon-cog icon-muted"></i><a href="https://github.com/Pylons/pyramid">Github Project</a></li>
+              <li><i class="glyphicon glyphicon-globe icon-muted"></i><a href="https://webchat.freenode.net/?channels=pyramid">IRC Channel</a></li>
+              <li><i class="glyphicon glyphicon-home icon-muted"></i><a href="https://pylonsproject.org">Pylons Project</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="copyright">
+            Copyright &copy; Pylons Project
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="//code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWN
+#
+T 172.31.31.148:6543 -> 159.180.251.47:48339 [AP] #452
+IpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+
+##
+T 159.180.251.47:48339 -> 172.31.31.148:6543 [AP] #454
+GET /static/theme.css HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: text/css,*/*;q=0.1.
+Referer: http://52.201.230.99:6543/.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+If-Modified-Since: Wed, 20 Dec 2023 14:18:30 GMT.
+.
+
+##
+T 172.31.31.148:6543 -> 159.180.251.47:48339 [AP] #456
+HTTP/1.1 304 Not Modified.
+Cache-Control: max-age=3600.
+Connection: close.
+Date: Wed, 20 Dec 2023 16:04:32 GMT.
+Expires: Wed, 20 Dec 2023 17:04:32 GMT.
+Last-Modified: Wed, 20 Dec 2023 14:18:30 GMT.
+Server: waitress.
+.
+
+##
+T 159.180.251.47:9513 -> 172.31.31.148:6543 [AP] #458
+GET /static/pyramid.png HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8.
+Referer: http://52.201.230.99:6543/.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+If-Modified-Since: Wed, 20 Dec 2023 14:18:30 GMT.
+.
+
+##
+T 172.31.31.148:6543 -> 159.180.251.47:9513 [AP] #460
+HTTP/1.1 304 Not Modified.
+Cache-Control: max-age=3600.
+Connection: close.
+Date: Wed, 20 Dec 2023 16:04:32 GMT.
+Expires: Wed, 20 Dec 2023 17:04:32 GMT.
+Last-Modified: Wed, 20 Dec 2023 14:18:30 GMT.
+Server: waitress.
+.
+
+##############
+T 159.180.251.47:31686 -> 172.31.31.148:6543 [AP] #474
+GET /static/pyramid-16x16.png HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8.
+Referer: http://52.201.230.99:6543/.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+If-Modified-Since: Wed, 20 Dec 2023 14:18:30 GMT.
+.
+
+###
+T 172.31.31.148:6543 -> 159.180.251.47:31686 [AP] #477
+HTTP/1.1 304 Not Modified.
+Cache-Control: max-age=3600.
+Connection: close.
+Date: Wed, 20 Dec 2023 16:04:32 GMT.
+Expires: Wed, 20 Dec 2023 17:04:32 GMT.
+Last-Modified: Wed, 20 Dec 2023 14:18:30 GMT.
+Server: waitress.
+.
+
+###############
+T 159.180.251.47:28935 -> 172.31.31.148:6543 [AP] #492
+GET / HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+Cache-Control: max-age=0.
+Upgrade-Insecure-Requests: 1.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+.
+
+##
+T 172.31.31.148:6543 -> 159.180.251.47:28935 [AP] #494
+HTTP/1.1 500 Internal Server Error.
+Connection: close.
+Content-Length: 110.
+Content-Type: text/plain; charset=utf-8.
+Date: Wed, 20 Dec 2023 16:04:51 GMT.
+Server: waitress.
+.
+
+#
+T 172.31.31.148:6543 -> 159.180.251.47:28935 [AP] #495
+Internal Server Error.
+.
+The server encountered an unexpected internal server error.
+.
+(generated by waitress)
+########
+T 159.180.251.47:47708 -> 172.31.31.148:6543 [A] #503
+.
+##
+T 159.180.251.47:50198 -> 172.31.31.148:6543 [A] #505
+.
+################
+T 159.180.251.47:21027 -> 172.31.31.148:6543 [AP] #521
+GET / HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+Cache-Control: max-age=0.
+Upgrade-Insecure-Requests: 1.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+.
+
+##
+T 172.31.31.148:6543 -> 159.180.251.47:21027 [AP] #523
+HTTP/1.1 200 OK.
+Content-Length: 2995.
+Content-Type: text/html; charset=UTF-8.
+Date: Wed, 20 Dec 2023 16:06:12 GMT.
+Server: waitress.
+.
+
+#
+T 172.31.31.148:6543 -> 159.180.251.47:21027 [AP] #524
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="pyramid web application">
+    <meta name="author" content="Pylons Project">
+    <link rel="shortcut icon" href="http://52.201.230.99:6543/static/pyramid-16x16.png">
+
+    <title>Cookiecutter Starter project for the Pyramid Web Framework</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Custom styles for this scaffold -->
+    <link href="http://52.201.230.99:6543/static/theme.css" rel="stylesheet">
+
+    <!-- HTML5 shiv and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js" integrity="sha384-0s5Pv64cNZJieYFkXYOTId2HMA2Lfb6q2nAcx2n0RTLUnCAoTTsS0nKEO27XyKcY" crossorigin="anonymous"></script>
+      <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js" integrity="sha384-ZoaMbDF+4LeFxg6WdScQ9nnR1QC2MIRxA1O9KWEXQwns1G8UNyIEZIQidzb0T1fo" crossorigin="anonymous"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="starter-template">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2">
+            <img class="logo img-responsive" src="http://52.201.230.99:6543/static/pyramid.png" alt="pyramid web framework">
+          </div>
+          <div class="col-md-10">
+            <div>No content</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="links">
+            <ul>
+              <li><i class="glyphicon glyphicon-cog icon-muted"></i><a href="https://github.com/Pylons/pyramid">Github Project</a></li>
+              <li><i class="glyphicon glyphicon-globe icon-muted"></i><a href="https://webchat.freenode.net/?channels=pyramid">IRC Channel</a></li>
+              <li><i class="glyphicon glyphicon-home icon-muted"></i><a href="https://pylonsproject.org">Pylons Project</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="copyright">
+            Copyright &copy; Pylons Project
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="//code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWN
+#
+T 172.31.31.148:6543 -> 159.180.251.47:21027 [AP] #525
+IpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+
+################
+T 159.180.251.47:6951 -> 172.31.31.148:6543 [AP] #541
+GET / HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+Cache-Control: max-age=0.
+Upgrade-Insecure-Requests: 1.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+.
+
+##
+T 172.31.31.148:6543 -> 159.180.251.47:6951 [AP] #543
+HTTP/1.1 500 Internal Server Error.
+Connection: close.
+Content-Length: 110.
+Content-Type: text/plain; charset=utf-8.
+Date: Wed, 20 Dec 2023 16:06:48 GMT.
+Server: waitress.
+.
+
+#
+T 172.31.31.148:6543 -> 159.180.251.47:6951 [AP] #544
+Internal Server Error.
+.
+The server encountered an unexpected internal server error.
+.
+(generated by waitress)
+####
+T 172.31.31.148:6543 -> 159.180.251.47:6951 [AP] #548
+HTTP/1.1 500 Internal Server Error.
+Connection: close.
+Content-Length: 110.
+Content-Type: text/plain; charset=utf-8.
+Date: Wed, 20 Dec 2023 16:06:48 GMT.
+Server: waitress.
+.
+
+#######
+T 159.180.251.47:50095 -> 172.31.31.148:6543 [A] #555
+.
+################
+T 159.180.251.47:32006 -> 172.31.31.148:6543 [AP] #571
+GET / HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+Cache-Control: max-age=0.
+Upgrade-Insecure-Requests: 1.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+.
+
+##
+T 172.31.31.148:6543 -> 159.180.251.47:32006 [AP] #573
+HTTP/1.1 500 Internal Server Error.
+Connection: close.
+Content-Length: 110.
+Content-Type: text/plain; charset=utf-8.
+Date: Wed, 20 Dec 2023 16:07:45 GMT.
+Server: waitress.
+.
+
+#
+T 172.31.31.148:6543 -> 159.180.251.47:32006 [AP] #574
+Internal Server Error.
+.
+The server encountered an unexpected internal server error.
+.
+(generated by waitress)
+########
+T 159.180.251.47:8590 -> 172.31.31.148:6543 [AP] #582
+GET / HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+Cache-Control: max-age=0.
+Upgrade-Insecure-Requests: 1.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+.
+
+##
+T 172.31.31.148:6543 -> 159.180.251.47:8590 [AP] #584
+HTTP/1.1 500 Internal Server Error.
+Connection: close.
+Content-Length: 110.
+Content-Type: text/plain; charset=utf-8.
+Date: Wed, 20 Dec 2023 16:07:47 GMT.
+Server: waitress.
+.
+
+#
+T 172.31.31.148:6543 -> 159.180.251.47:8590 [AP] #585
+Internal Server Error.
+.
+The server encountered an unexpected internal server error.
+.
+(generated by waitress)
+######################################################################################
+T 159.180.251.47:38361 -> 172.31.31.148:6543 [AP] #671
+GET / HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+Cache-Control: max-age=0.
+Upgrade-Insecure-Requests: 1.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+.
+
+##
+T 172.31.31.148:6543 -> 159.180.251.47:38361 [AP] #673
+HTTP/1.1 500 Internal Server Error.
+Connection: close.
+Content-Length: 110.
+Content-Type: text/plain; charset=utf-8.
+Date: Wed, 20 Dec 2023 16:08:53 GMT.
+Server: waitress.
+.
+
+#
+T 172.31.31.148:6543 -> 159.180.251.47:38361 [AP] #674
+Internal Server Error.
+.
+The server encountered an unexpected internal server error.
+.
+(generated by waitress)
+########
+T 159.180.251.47:22950 -> 172.31.31.148:6543 [AP] #682
+GET / HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+Cache-Control: max-age=0.
+Upgrade-Insecure-Requests: 1.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+.
+
+##
+T 172.31.31.148:6543 -> 159.180.251.47:22950 [AP] #684
+HTTP/1.1 500 Internal Server Error.
+Connection: close.
+Content-Length: 110.
+Content-Type: text/plain; charset=utf-8.
+Date: Wed, 20 Dec 2023 16:08:55 GMT.
+Server: waitress.
+.
+
+#
+T 172.31.31.148:6543 -> 159.180.251.47:22950 [AP] #685
+Internal Server Error.
+.
+The server encountered an unexpected internal server error.
+.
+(generated by waitress)
+########
+T 159.180.251.47:55953 -> 172.31.31.148:6543 [AP] #693
+GET / HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+Cache-Control: max-age=0.
+Upgrade-Insecure-Requests: 1.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+.
+
+##
+T 172.31.31.148:6543 -> 159.180.251.47:55953 [AP] #695
+HTTP/1.1 500 Internal Server Error.
+Connection: close.
+Content-Length: 110.
+Content-Type: text/plain; charset=utf-8.
+Date: Wed, 20 Dec 2023 16:08:56 GMT.
+Server: waitress.
+.
+
+#
+T 172.31.31.148:6543 -> 159.180.251.47:55953 [AP] #696
+Internal Server Error.
+.
+The server encountered an unexpected internal server error.
+.
+(generated by waitress)
+######
+T 159.180.251.47:44767 -> 172.31.31.148:6543 [AP] #702
+GET / HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+Cache-Control: max-age=0.
+Upgrade-Insecure-Requests: 1.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+.
+
+##
+T 172.31.31.148:6543 -> 159.180.251.47:44767 [AP] #704
+HTTP/1.1 500 Internal Server Error.
+Connection: close.
+Content-Length: 110.
+Content-Type: text/plain; charset=utf-8.
+Date: Wed, 20 Dec 2023 16:08:56 GMT.
+Server: waitress.
+.
+
+#
+T 172.31.31.148:6543 -> 159.180.251.47:44767 [AP] #705
+Internal Server Error.
+.
+The server encountered an unexpected internal server error.
+.
+(generated by waitress)
+#########
+T 159.180.251.47:50418 -> 172.31.31.148:6543 [AP] #714
+GET / HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+Cache-Control: max-age=0.
+Upgrade-Insecure-Requests: 1.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+.
+
+####
+T 172.31.31.148:6543 -> 159.180.251.47:50418 [AP] #718
+HTTP/1.1 500 Internal Server Error.
+Connection: close.
+Content-Length: 110.
+Content-Type: text/plain; charset=utf-8.
+Date: Wed, 20 Dec 2023 16:08:56 GMT.
+Server: waitress.
+.
+
+#
+T 172.31.31.148:6543 -> 159.180.251.47:50418 [AP] #719
+Internal Server Error.
+.
+The server encountered an unexpected internal server error.
+.
+(generated by waitress)
+#######
+T 159.180.251.47:17740 -> 172.31.31.148:6543 [AP] #726
+GET / HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+Cache-Control: max-age=0.
+Upgrade-Insecure-Requests: 1.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+.
+
+###
+T 172.31.31.148:6543 -> 159.180.251.47:17740 [AP] #729
+HTTP/1.1 500 Internal Server Error.
+Connection: close.
+Content-Length: 110.
+Content-Type: text/plain; charset=utf-8.
+Date: Wed, 20 Dec 2023 16:08:56 GMT.
+Server: waitress.
+.
+
+#
+T 172.31.31.148:6543 -> 159.180.251.47:17740 [AP] #730
+Internal Server Error.
+.
+The server encountered an unexpected internal server error.
+.
+(generated by waitress)
+#######
+T 159.180.251.47:49219 -> 172.31.31.148:6543 [AP] #737
+GET / HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+Cache-Control: max-age=0.
+Upgrade-Insecure-Requests: 1.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+.
+
+####
+T 172.31.31.148:6543 -> 159.180.251.47:49219 [AP] #741
+HTTP/1.1 500 Internal Server Error.
+Connection: close.
+Content-Length: 110.
+Content-Type: text/plain; charset=utf-8.
+Date: Wed, 20 Dec 2023 16:08:56 GMT.
+Server: waitress.
+.
+
+#
+T 172.31.31.148:6543 -> 159.180.251.47:49219 [AP] #742
+Internal Server Error.
+.
+The server encountered an unexpected internal server error.
+.
+(generated by waitress)
+#######
+T 159.180.251.47:57043 -> 172.31.31.148:6543 [AP] #749
+GET / HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+Cache-Control: max-age=0.
+Upgrade-Insecure-Requests: 1.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+.
+
+###
+T 172.31.31.148:6543 -> 159.180.251.47:57043 [AP] #752
+HTTP/1.1 500 Internal Server Error.
+Connection: close.
+Content-Length: 110.
+Content-Type: text/plain; charset=utf-8.
+Date: Wed, 20 Dec 2023 16:08:56 GMT.
+Server: waitress.
+.
+
+#
+T 172.31.31.148:6543 -> 159.180.251.47:57043 [AP] #753
+Internal Server Error.
+.
+The server encountered an unexpected internal server error.
+.
+(generated by waitress)
+#######
+T 159.180.251.47:47244 -> 172.31.31.148:6543 [AP] #760
+GET / HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+Cache-Control: max-age=0.
+Upgrade-Insecure-Requests: 1.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+.
+
+####
+T 172.31.31.148:6543 -> 159.180.251.47:47244 [AP] #764
+HTTP/1.1 500 Internal Server Error.
+Connection: close.
+Content-Length: 110.
+Content-Type: text/plain; charset=utf-8.
+Date: Wed, 20 Dec 2023 16:08:56 GMT.
+Server: waitress.
+.
+
+#
+T 172.31.31.148:6543 -> 159.180.251.47:47244 [AP] #765
+Internal Server Error.
+.
+The server encountered an unexpected internal server error.
+.
+(generated by waitress)
+#######################
+T 159.180.251.47:46143 -> 172.31.31.148:6543 [AP] #788
+GET / HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+Cache-Control: max-age=0.
+Upgrade-Insecure-Requests: 1.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+.
+
+##
+T 172.31.31.148:6543 -> 159.180.251.47:46143 [AP] #790
+HTTP/1.1 500 Internal Server Error.
+Connection: close.
+Content-Length: 110.
+Content-Type: text/plain; charset=utf-8.
+Date: Wed, 20 Dec 2023 16:09:17 GMT.
+Server: waitress.
+.
+
+#
+T 172.31.31.148:6543 -> 159.180.251.47:46143 [AP] #791
+Internal Server Error.
+.
+The server encountered an unexpected internal server error.
+.
+(generated by waitress)
+########
+T 159.180.251.47:47044 -> 172.31.31.148:6543 [AP] #799
+GET / HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+Cache-Control: max-age=0.
+Upgrade-Insecure-Requests: 1.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+.
+
+##
+T 172.31.31.148:6543 -> 159.180.251.47:47044 [AP] #801
+HTTP/1.1 500 Internal Server Error.
+Connection: close.
+Content-Length: 110.
+Content-Type: text/plain; charset=utf-8.
+Date: Wed, 20 Dec 2023 16:09:19 GMT.
+Server: waitress.
+.
+
+#
+T 172.31.31.148:6543 -> 159.180.251.47:47044 [AP] #802
+Internal Server Error.
+.
+The server encountered an unexpected internal server error.
+.
+(generated by waitress)
+##########################################
+T 159.180.251.47:6982 -> 172.31.31.148:6543 [AP] #844
+GET / HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+Cache-Control: max-age=0.
+Upgrade-Insecure-Requests: 1.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+.
+
+##
+T 172.31.31.148:6543 -> 159.180.251.47:6982 [AP] #846
+HTTP/1.1 200 OK.
+Content-Length: 408.
+Content-Type: text/html; charset=UTF-8.
+Date: Wed, 20 Dec 2023 16:14:44 GMT.
+Server: waitress.
+.
+
+#
+T 172.31.31.148:6543 -> 159.180.251.47:6982 [AP] #847
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello World Page</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 2em;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    Hello, World!
+</body>
+</html>
+
+##
+T 159.180.251.47:24086 -> 172.31.31.148:6543 [A] #849
+.
+##
+T 159.180.251.47:6982 -> 172.31.31.148:6543 [A] #851
+.
+########
+T 159.180.251.47:6982 -> 172.31.31.148:6543 [A] #859
+.
+##
+T 159.180.251.47:62649 -> 172.31.31.148:6543 [A] #861
+.
+##
+T 159.180.251.47:6982 -> 172.31.31.148:6543 [A] #863
+.
+###############
+T 159.180.251.47:48650 -> 172.31.31.148:6543 [AP] #878
+GET / HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+Cache-Control: max-age=0.
+Upgrade-Insecure-Requests: 1.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+.
+
+##
+T 172.31.31.148:6543 -> 159.180.251.47:48650 [AP] #880
+HTTP/1.1 200 OK.
+Content-Length: 569.
+Content-Type: text/html; charset=UTF-8.
+Date: Wed, 20 Dec 2023 16:21:01 GMT.
+Server: waitress.
+.
+
+#
+T 172.31.31.148:6543 -> 159.180.251.47:48650 [AP] #881
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello World Page</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-size: 2em;
+            font-weight: bold;
+        }
+        a {
+            margin-top: 20px;
+            font-size: 0.5em;
+        }
+    </style>
+</head>
+<body>
+    Hello, World!
+    <a href="/inscription">Inscription</a>
+</body>
+</html>
+
+##
+T 159.180.251.47:48650 -> 172.31.31.148:6543 [AP] #883
+GET /inscription HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+Upgrade-Insecure-Requests: 1.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7.
+Referer: http://52.201.230.99:6543/.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+.
+
+##
+T 172.31.31.148:6543 -> 159.180.251.47:48650 [AP] #885
+HTTP/1.1 404 Not Found.
+Content-Length: 3218.
+Content-Type: text/html; charset=UTF-8.
+Date: Wed, 20 Dec 2023 16:21:05 GMT.
+Server: waitress.
+.
+
+#
+T 172.31.31.148:6543 -> 159.180.251.47:48650 [AP] #886
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="pyramid web application">
+    <meta name="author" content="Pylons Project">
+    <link rel="shortcut icon" href="http://52.201.230.99:6543/static/pyramid-16x16.png">
+
+    <title>Cookiecutter Starter project for the Pyramid Web Framework</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Custom styles for this scaffold -->
+    <link href="http://52.201.230.99:6543/static/theme.css" rel="stylesheet">
+
+    <!-- HTML5 shiv and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js" integrity="sha384-0s5Pv64cNZJieYFkXYOTId2HMA2Lfb6q2nAcx2n0RTLUnCAoTTsS0nKEO27XyKcY" crossorigin="anonymous"></script>
+      <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js" integrity="sha384-ZoaMbDF+4LeFxg6WdScQ9nnR1QC2MIRxA1O9KWEXQwns1G8UNyIEZIQidzb0T1fo" crossorigin="anonymous"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="starter-template">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2">
+            <img class="logo img-responsive" src="http://52.201.230.99:6543/static/pyramid.png" alt="pyramid web framework">
+          </div>
+          <div class="col-md-10">
+            <div>
+
+        <div class="content">
+            <h1><span class="font-semi-bold">Pyramid</span> <span class="smaller">Starter project</span></h1>
+            <p class="lead"><span class="font-semi-bold">404</span> Page Not Found</p>
+        </div>
+
+    </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="links">
+            <ul>
+              <li><i class="glyphicon glyphicon-cog icon-muted"></i><a href="https://github.com/Pylons/pyramid">Github Project</a></li>
+              <li><i class="glyphicon glyphicon-globe icon-muted"></i><a href="https://webchat.freenode.net/?channels=pyramid">IRC Channel</a></li>
+              <li><i class="glyphicon glyphicon-home icon-muted"></i><a href="https://pylonsproject.org">Pylons Project</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="copyright">
+            Copyright &copy; Pylons Project
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="//code.jquery.com/jquery-1.12.4.min.js" integrity="sha256
+#
+T 172.31.31.148:6543 -> 159.180.251.47:48650 [AP] #887
+-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+
+###
+T 159.180.251.47:28927 -> 172.31.31.148:6543 [A] #890
+.
+##
+T 159.180.251.47:48650 -> 172.31.31.148:6543 [A] #892
+.
+########
+T 159.180.251.47:48650 -> 172.31.31.148:6543 [AP] #900
+GET /inscription HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+Upgrade-Insecure-Requests: 1.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7.
+Referer: http://52.201.230.99:6543/.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+.
+
+##
+T 172.31.31.148:6543 -> 159.180.251.47:48650 [AP] #902
+HTTP/1.1 404 Not Found.
+Content-Length: 3218.
+Content-Type: text/html; charset=UTF-8.
+Date: Wed, 20 Dec 2023 16:22:03 GMT.
+Server: waitress.
+.
+
+#
+T 172.31.31.148:6543 -> 159.180.251.47:48650 [AP] #903
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="pyramid web application">
+    <meta name="author" content="Pylons Project">
+    <link rel="shortcut icon" href="http://52.201.230.99:6543/static/pyramid-16x16.png">
+
+    <title>Cookiecutter Starter project for the Pyramid Web Framework</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Custom styles for this scaffold -->
+    <link href="http://52.201.230.99:6543/static/theme.css" rel="stylesheet">
+
+    <!-- HTML5 shiv and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js" integrity="sha384-0s5Pv64cNZJieYFkXYOTId2HMA2Lfb6q2nAcx2n0RTLUnCAoTTsS0nKEO27XyKcY" crossorigin="anonymous"></script>
+      <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js" integrity="sha384-ZoaMbDF+4LeFxg6WdScQ9nnR1QC2MIRxA1O9KWEXQwns1G8UNyIEZIQidzb0T1fo" crossorigin="anonymous"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="starter-template">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2">
+            <img class="logo img-responsive" src="http://52.201.230.99:6543/static/pyramid.png" alt="pyramid web framework">
+          </div>
+          <div class="col-md-10">
+            <div>
+
+        <div class="content">
+            <h1><span class="font-semi-bold">Pyramid</span> <span class="smaller">Starter project</span></h1>
+            <p class="lead"><span class="font-semi-bold">404</span> Page Not Found</p>
+        </div>
+
+    </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="links">
+            <ul>
+              <li><i class="glyphicon glyphicon-cog icon-muted"></i><a href="https://github.com/Pylons/pyramid">Github Project</a></li>
+              <li><i class="glyphicon glyphicon-globe icon-muted"></i><a href="https://webchat.freenode.net/?channels=pyramid">IRC Channel</a></li>
+              <li><i class="glyphicon glyphicon-home icon-muted"></i><a href="https://pylonsproject.org">Pylons Project</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="copyright">
+            Copyright &copy; Pylons Project
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="//code.jquery.com/jquery-1.12.4.min.js" integrity="sha256
+#
+T 172.31.31.148:6543 -> 159.180.251.47:48650 [AP] #904
+-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+
+##
+T 159.180.251.47:30026 -> 172.31.31.148:6543 [A] #906
+.
+##
+T 159.180.251.47:48650 -> 172.31.31.148:6543 [A] #908
+.
+#####
+T 159.180.251.47:48650 -> 172.31.31.148:6543 [A] #913
+.
+##
+T 159.180.251.47:48650 -> 172.31.31.148:6543 [A] #915
+.
+##############
+T 159.180.251.47:42936 -> 172.31.31.148:6543 [AP] #929
+GET /inscription HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+Cache-Control: max-age=0.
+Upgrade-Insecure-Requests: 1.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7.
+Referer: http://52.201.230.99:6543/.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+.
+
+##
+T 172.31.31.148:6543 -> 159.180.251.47:42936 [AP] #931
+HTTP/1.1 404 Not Found.
+Content-Length: 3218.
+Content-Type: text/html; charset=UTF-8.
+Date: Wed, 20 Dec 2023 16:29:16 GMT.
+Server: waitress.
+.
+
+#
+T 172.31.31.148:6543 -> 159.180.251.47:42936 [AP] #932
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="pyramid web application">
+    <meta name="author" content="Pylons Project">
+    <link rel="shortcut icon" href="http://52.201.230.99:6543/static/pyramid-16x16.png">
+
+    <title>Cookiecutter Starter project for the Pyramid Web Framework</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Custom styles for this scaffold -->
+    <link href="http://52.201.230.99:6543/static/theme.css" rel="stylesheet">
+
+    <!-- HTML5 shiv and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js" integrity="sha384-0s5Pv64cNZJieYFkXYOTId2HMA2Lfb6q2nAcx2n0RTLUnCAoTTsS0nKEO27XyKcY" crossorigin="anonymous"></script>
+      <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js" integrity="sha384-ZoaMbDF+4LeFxg6WdScQ9nnR1QC2MIRxA1O9KWEXQwns1G8UNyIEZIQidzb0T1fo" crossorigin="anonymous"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="starter-template">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2">
+            <img class="logo img-responsive" src="http://52.201.230.99:6543/static/pyramid.png" alt="pyramid web framework">
+          </div>
+          <div class="col-md-10">
+            <div>
+
+        <div class="content">
+            <h1><span class="font-semi-bold">Pyramid</span> <span class="smaller">Starter project</span></h1>
+            <p class="lead"><span class="font-semi-bold">404</span> Page Not Found</p>
+        </div>
+
+    </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="links">
+            <ul>
+              <li><i class="glyphicon glyphicon-cog icon-muted"></i><a href="https://github.com/Pylons/pyramid">Github Project</a></li>
+              <li><i class="glyphicon glyphicon-globe icon-muted"></i><a href="https://webchat.freenode.net/?channels=pyramid">IRC Channel</a></li>
+              <li><i class="glyphicon glyphicon-home icon-muted"></i><a href="https://pylonsproject.org">Pylons Project</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="copyright">
+            Copyright &copy; Pylons Project
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="//code.jquery.com/jquery-1.12.4.min.js" integrity="sha256
+#
+T 172.31.31.148:6543 -> 159.180.251.47:42936 [AP] #933
+-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+
+##
+T 159.180.251.47:42936 -> 172.31.31.148:6543 [AP] #935
+GET / HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+Upgrade-Insecure-Requests: 1.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+.
+
+##
+T 172.31.31.148:6543 -> 159.180.251.47:42936 [AP] #937
+HTTP/1.1 200 OK.
+Content-Length: 3372.
+Content-Type: text/html; charset=UTF-8.
+Date: Wed, 20 Dec 2023 16:29:22 GMT.
+Server: waitress.
+.
+
+#
+T 172.31.31.148:6543 -> 159.180.251.47:42936 [AP] #938
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="pyramid web application">
+    <meta name="author" content="Pylons Project">
+    <link rel="shortcut icon" href="http://52.201.230.99:6543/static/pyramid-16x16.png">
+
+    <title>Cookiecutter Starter project for the Pyramid Web Framework</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Custom styles for this scaffold -->
+    <link href="http://52.201.230.99:6543/static/theme.css" rel="stylesheet">
+
+    <!-- HTML5 shiv and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js" integrity="sha384-0s5Pv64cNZJieYFkXYOTId2HMA2Lfb6q2nAcx2n0RTLUnCAoTTsS0nKEO27XyKcY" crossorigin="anonymous"></script>
+      <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js" integrity="sha384-ZoaMbDF+4LeFxg6WdScQ9nnR1QC2MIRxA1O9KWEXQwns1G8UNyIEZIQidzb0T1fo" crossorigin="anonymous"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="starter-template">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2">
+            <img class="logo img-responsive" src="http://52.201.230.99:6543/static/pyramid.png" alt="pyramid web framework">
+          </div>
+          <div class="col-md-10">
+            <div>
+
+        <div class="content">
+            <h1><span class="font-semi-bold">Pyramid</span> <span class="smaller">Starter project</span></h1>
+            <p class="lead">Welcome to <span class="font-normal" >Pyramid_bbsm</span>, a&nbsp;Pyramid
+
+                application generated&nbsp;by<br><span class="font-normal">Cookiecutter</span>.</p>
+            <h1>COCUOU C'EST MOI</h1>
+        </div>
+
+    </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="links">
+            <ul>
+              <li><i class="glyphicon glyphicon-cog icon-muted"></i><a href="https://github.com/Pylons/pyramid">Github Project</a></li>
+              <li><i class="glyphicon glyphicon-globe icon-muted"></i><a href="https://webchat.freenode.net/?channels=pyramid">IRC Channel</a></li>
+              <li><i class="glyphicon glyphicon-home icon-muted"></i><a href="https://pylonsproject.org">Pylons Project</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="copyright">
+            Copyright &copy; Pylons Project
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Bootstrap core JavaScript
+    ===============================================
+#
+T 172.31.31.148:6543 -> 159.180.251.47:42936 [AP] #939
+=== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="//code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+
+##
+T 159.180.251.47:15934 -> 172.31.31.148:6543 [A] #941
+.
+##
+T 159.180.251.47:42936 -> 172.31.31.148:6543 [A] #943
+.
+####################
+T 172.105.128.11:8436 -> 172.31.31.148:6543 [AP] #963
+...........)D..*........Pj......].!%1He...... ./.0.+.,...........
+...../.5...
+...8..........
+.
+...........................................
+#################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################
+T 46.193.68.24:54185 -> 172.31.31.148:6543 [AP] #1540
+GET / HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+Cache-Control: max-age=0.
+Upgrade-Insecure-Requests: 1.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+.
+
+##
+T 172.31.31.148:6543 -> 46.193.68.24:54185 [AP] #1542
+HTTP/1.1 500 Internal Server Error.
+Connection: close.
+Content-Length: 110.
+Content-Type: text/plain; charset=utf-8.
+Date: Wed, 20 Dec 2023 20:44:53 GMT.
+Server: waitress.
+.
+
+#
+T 172.31.31.148:6543 -> 46.193.68.24:54185 [AP] #1543
+Internal Server Error.
+.
+The server encountered an unexpected internal server error.
+.
+(generated by waitress)
+########
+T 46.193.68.24:54186 -> 172.31.31.148:6543 [AP] #1551
+GET / HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+Cache-Control: max-age=0.
+Upgrade-Insecure-Requests: 1.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+.
+
+##
+T 172.31.31.148:6543 -> 46.193.68.24:54186 [AP] #1553
+HTTP/1.1 500 Internal Server Error.
+Connection: close.
+Content-Length: 110.
+Content-Type: text/plain; charset=utf-8.
+Date: Wed, 20 Dec 2023 20:45:04 GMT.
+Server: waitress.
+.
+
+#
+T 172.31.31.148:6543 -> 46.193.68.24:54186 [AP] #1554
+Internal Server Error.
+.
+The server encountered an unexpected internal server error.
+.
+(generated by waitress)
+########
+T 46.193.68.24:54187 -> 172.31.31.148:6543 [A] #1562
+.
+##
+T 46.193.68.24:54195 -> 172.31.31.148:6543 [A] #1564
+.
+##############
+T 46.193.68.24:54235 -> 172.31.31.148:6543 [AP] #1578
+GET / HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+Cache-Control: max-age=0.
+Upgrade-Insecure-Requests: 1.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+.
+
+##
+T 172.31.31.148:6543 -> 46.193.68.24:54235 [AP] #1580
+HTTP/1.1 200 OK.
+Content-Length: 569.
+Content-Type: text/html; charset=UTF-8.
+Date: Wed, 20 Dec 2023 20:47:30 GMT.
+Server: waitress.
+.
+
+#
+T 172.31.31.148:6543 -> 46.193.68.24:54235 [AP] #1581
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello World Page</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-size: 2em;
+            font-weight: bold;
+        }
+        a {
+            margin-top: 20px;
+            font-size: 0.5em;
+        }
+    </style>
+</head>
+<body>
+    Hello, World!
+    <a href="/inscription">Inscription</a>
+</body>
+</html>
+
+##
+T 46.193.68.24:54235 -> 172.31.31.148:6543 [AP] #1583
+GET /inscription HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+Upgrade-Insecure-Requests: 1.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7.
+Referer: http://52.201.230.99:6543/.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+.
+
+#
+T 172.31.31.148:6543 -> 46.193.68.24:54235 [AP] #1584
+HTTP/1.1 200 OK.
+Content-Length: 833.
+Content-Type: text/html; charset=UTF-8.
+Date: Wed, 20 Dec 2023 20:47:33 GMT.
+Server: waitress.
+.
+
+#
+T 172.31.31.148:6543 -> 46.193.68.24:54235 [AP] #1585
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Inscription</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            margin: auto;
+        }
+        input, button {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form action="/inscription" method="post">
+        <label for="username">Nom d'utilisateur:</label>
+        <input type="text" id="username" name="username" required>
+        <label for="password">Mot de passe:</label>
+        <input type="password" id="password" name="password" required>
+        <button type="submit">S'inscrire</button>
+    </form>
+</body>
+</html>
+
+################################################################################################
+T 46.193.68.24:54889 -> 172.31.31.148:6543 [AP] #1681
+GET /inscription HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+Cache-Control: max-age=0.
+Upgrade-Insecure-Requests: 1.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7.
+Referer: http://52.201.230.99:6543/.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+.
+
+##
+T 172.31.31.148:6543 -> 46.193.68.24:54889 [AP] #1683
+HTTP/1.1 200 OK.
+Content-Length: 833.
+Content-Type: text/html; charset=UTF-8.
+Date: Wed, 20 Dec 2023 21:25:06 GMT.
+Server: waitress.
+.
+
+#
+T 172.31.31.148:6543 -> 46.193.68.24:54889 [AP] #1684
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Inscription</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            margin: auto;
+        }
+        input, button {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form action="/inscription" method="post">
+        <label for="username">Nom d'utilisateur:</label>
+        <input type="text" id="username" name="username" required>
+        <label for="password">Mot de passe:</label>
+        <input type="password" id="password" name="password" required>
+        <button type="submit">S'inscrire</button>
+    </form>
+</body>
+</html>
+
+##
+T 46.193.68.24:54889 -> 172.31.31.148:6543 [AP] #1686
+GET /favicon.ico HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8.
+Referer: http://52.201.230.99:6543/inscription.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+.
+
+##
+T 172.31.31.148:6543 -> 46.193.68.24:54889 [AP] #1688
+HTTP/1.1 404 Not Found.
+Content-Length: 3218.
+Content-Type: text/html; charset=UTF-8.
+Date: Wed, 20 Dec 2023 21:25:07 GMT.
+Server: waitress.
+.
+
+#
+T 172.31.31.148:6543 -> 46.193.68.24:54889 [AP] #1689
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="pyramid web application">
+    <meta name="author" content="Pylons Project">
+    <link rel="shortcut icon" href="http://52.201.230.99:6543/static/pyramid-16x16.png">
+
+    <title>Cookiecutter Starter project for the Pyramid Web Framework</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Custom styles for this scaffold -->
+    <link href="http://52.201.230.99:6543/static/theme.css" rel="stylesheet">
+
+    <!-- HTML5 shiv and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js" integrity="sha384-0s5Pv64cNZJieYFkXYOTId2HMA2Lfb6q2nAcx2n0RTLUnCAoTTsS0nKEO27XyKcY" crossorigin="anonymous"></script>
+      <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js" integrity="sha384-ZoaMbDF+4LeFxg6WdScQ9nnR1QC2MIRxA1O9KWEXQwns1G8UNyIEZIQidzb0T1fo" crossorigin="anonymous"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="starter-template">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2">
+            <img class="logo img-responsive" src="http://52.201.230.99:6543/static/pyramid.png" alt="pyramid web framework">
+          </div>
+          <div class="col-md-10">
+            <div>
+
+        <div class="content">
+            <h1><span class="font-semi-bold">Pyramid</span> <span class="smaller">Starter project</span></h1>
+            <p class="lead"><span class="font-semi-bold">404</span> Page Not Found</p>
+        </div>
+
+    </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="links">
+            <ul>
+              <li><i class="glyphicon glyphicon-cog icon-muted"></i><a href="https://github.com/Pylons/pyramid">Github Project</a></li>
+              <li><i class="glyphicon glyphicon-globe icon-muted"></i><a href="https://webchat.freenode.net/?channels=pyramid">IRC Channel</a></li>
+              <li><i class="glyphicon glyphicon-home icon-muted"></i><a href="https://pylonsproject.org">Pylons Project</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="copyright">
+            Copyright &copy; Pylons Project
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="//code.jquery.com/jquery-1.12.4.min.js" integrity="sha256
+#
+T 172.31.31.148:6543 -> 46.193.68.24:54889 [AP] #1690
+-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+
+##
+T 46.193.68.24:54889 -> 172.31.31.148:6543 [AP] #1692
+POST /inscription HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+Content-Length: 35.
+Cache-Control: max-age=0.
+Upgrade-Insecure-Requests: 1.
+Origin: http://52.201.230.99:6543.
+Content-Type: application/x-www-form-urlencoded.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7.
+Referer: http://52.201.230.99:6543/inscription.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+.
+username=username&password=password
+##
+T 172.31.31.148:6543 -> 46.193.68.24:54889 [AP] #1694
+HTTP/1.1 200 OK.
+Content-Length: 20.
+Content-Type: text/html; charset=UTF-8.
+Date: Wed, 20 Dec 2023 21:25:15 GMT.
+Server: waitress.
+.
+
+#
+T 172.31.31.148:6543 -> 46.193.68.24:54889 [AP] #1695
+Inscription r..ussie
+##############
+T 46.193.68.24:54907 -> 172.31.31.148:6543 [A] #1709
+.
+##
+T 46.193.68.24:54906 -> 172.31.31.148:6543 [A] #1711
+.
+##############
+T 46.193.68.24:55009 -> 172.31.31.148:6543 [AP] #1725
+GET / HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+Upgrade-Insecure-Requests: 1.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+.
+
+##
+T 172.31.31.148:6543 -> 46.193.68.24:55009 [AP] #1727
+HTTP/1.1 404 Not Found.
+Content-Length: 3218.
+Content-Type: text/html; charset=UTF-8.
+Date: Wed, 20 Dec 2023 21:31:21 GMT.
+Server: waitress.
+.
+
+#
+T 172.31.31.148:6543 -> 46.193.68.24:55009 [AP] #1728
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="pyramid web application">
+    <meta name="author" content="Pylons Project">
+    <link rel="shortcut icon" href="http://52.201.230.99:6543/static/pyramid-16x16.png">
+
+    <title>Cookiecutter Starter project for the Pyramid Web Framework</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Custom styles for this scaffold -->
+    <link href="http://52.201.230.99:6543/static/theme.css" rel="stylesheet">
+
+    <!-- HTML5 shiv and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js" integrity="sha384-0s5Pv64cNZJieYFkXYOTId2HMA2Lfb6q2nAcx2n0RTLUnCAoTTsS0nKEO27XyKcY" crossorigin="anonymous"></script>
+      <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js" integrity="sha384-ZoaMbDF+4LeFxg6WdScQ9nnR1QC2MIRxA1O9KWEXQwns1G8UNyIEZIQidzb0T1fo" crossorigin="anonymous"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="starter-template">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2">
+            <img class="logo img-responsive" src="http://52.201.230.99:6543/static/pyramid.png" alt="pyramid web framework">
+          </div>
+          <div class="col-md-10">
+            <div>
+
+        <div class="content">
+            <h1><span class="font-semi-bold">Pyramid</span> <span class="smaller">Starter project</span></h1>
+            <p class="lead"><span class="font-semi-bold">404</span> Page Not Found</p>
+        </div>
+
+    </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="links">
+            <ul>
+              <li><i class="glyphicon glyphicon-cog icon-muted"></i><a href="https://github.com/Pylons/pyramid">Github Project</a></li>
+              <li><i class="glyphicon glyphicon-globe icon-muted"></i><a href="https://webchat.freenode.net/?channels=pyramid">IRC Channel</a></li>
+              <li><i class="glyphicon glyphicon-home icon-muted"></i><a href="https://pylonsproject.org">Pylons Project</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="copyright">
+            Copyright &copy; Pylons Project
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="//code.jquery.com/jquery-1.12.4.min.js" integrity="sha256
+#
+T 172.31.31.148:6543 -> 46.193.68.24:55009 [AP] #1729
+-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+
+##
+T 46.193.68.24:55009 -> 172.31.31.148:6543 [AP] #1731
+GET /static/theme.css HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: text/css,*/*;q=0.1.
+Referer: http://52.201.230.99:6543/.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+If-Modified-Since: Wed, 20 Dec 2023 14:18:30 GMT.
+.
+
+##
+T 172.31.31.148:6543 -> 46.193.68.24:55009 [AP] #1733
+HTTP/1.1 304 Not Modified.
+Cache-Control: max-age=3600.
+Connection: close.
+Date: Wed, 20 Dec 2023 21:31:21 GMT.
+Expires: Wed, 20 Dec 2023 22:31:21 GMT.
+Last-Modified: Wed, 20 Dec 2023 14:18:30 GMT.
+Server: waitress.
+.
+
+##
+T 46.193.68.24:55008 -> 172.31.31.148:6543 [AP] #1735
+GET /static/pyramid.png HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8.
+Referer: http://52.201.230.99:6543/.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+If-Modified-Since: Wed, 20 Dec 2023 14:18:30 GMT.
+.
+
+##
+T 172.31.31.148:6543 -> 46.193.68.24:55008 [AP] #1737
+HTTP/1.1 304 Not Modified.
+Cache-Control: max-age=3600.
+Connection: close.
+Date: Wed, 20 Dec 2023 21:31:21 GMT.
+Expires: Wed, 20 Dec 2023 22:31:21 GMT.
+Last-Modified: Wed, 20 Dec 2023 14:18:30 GMT.
+Server: waitress.
+.
+
+#############
+T 46.193.68.24:55010 -> 172.31.31.148:6543 [AP] #1750
+GET /static/pyramid-16x16.png HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8.
+Referer: http://52.201.230.99:6543/.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+If-Modified-Since: Wed, 20 Dec 2023 14:18:30 GMT.
+.
+
+##
+T 172.31.31.148:6543 -> 46.193.68.24:55010 [AP] #1752
+HTTP/1.1 304 Not Modified.
+Cache-Control: max-age=3600.
+Connection: close.
+Date: Wed, 20 Dec 2023 21:31:22 GMT.
+Expires: Wed, 20 Dec 2023 22:31:22 GMT.
+Last-Modified: Wed, 20 Dec 2023 14:18:30 GMT.
+Server: waitress.
+.
+
+#########
+T 46.193.68.24:55011 -> 172.31.31.148:6543 [AP] #1761
+GET / HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+Cache-Control: max-age=0.
+Upgrade-Insecure-Requests: 1.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+.
+
+##
+T 172.31.31.148:6543 -> 46.193.68.24:55011 [AP] #1763
+HTTP/1.1 404 Not Found.
+Content-Length: 3218.
+Content-Type: text/html; charset=UTF-8.
+Date: Wed, 20 Dec 2023 21:31:27 GMT.
+Server: waitress.
+.
+
+#
+T 172.31.31.148:6543 -> 46.193.68.24:55011 [AP] #1764
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="pyramid web application">
+    <meta name="author" content="Pylons Project">
+    <link rel="shortcut icon" href="http://52.201.230.99:6543/static/pyramid-16x16.png">
+
+    <title>Cookiecutter Starter project for the Pyramid Web Framework</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Custom styles for this scaffold -->
+    <link href="http://52.201.230.99:6543/static/theme.css" rel="stylesheet">
+
+    <!-- HTML5 shiv and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js" integrity="sha384-0s5Pv64cNZJieYFkXYOTId2HMA2Lfb6q2nAcx2n0RTLUnCAoTTsS0nKEO27XyKcY" crossorigin="anonymous"></script>
+      <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js" integrity="sha384-ZoaMbDF+4LeFxg6WdScQ9nnR1QC2MIRxA1O9KWEXQwns1G8UNyIEZIQidzb0T1fo" crossorigin="anonymous"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="starter-template">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2">
+            <img class="logo img-responsive" src="http://52.201.230.99:6543/static/pyramid.png" alt="pyramid web framework">
+          </div>
+          <div class="col-md-10">
+            <div>
+
+        <div class="content">
+            <h1><span class="font-semi-bold">Pyramid</span> <span class="smaller">Starter project</span></h1>
+            <p class="lead"><span class="font-semi-bold">404</span> Page Not Found</p>
+        </div>
+
+    </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="links">
+            <ul>
+              <li><i class="glyphicon glyphicon-cog icon-muted"></i><a href="https://github.com/Pylons/pyramid">Github Project</a></li>
+              <li><i class="glyphicon glyphicon-globe icon-muted"></i><a href="https://webchat.freenode.net/?channels=pyramid">IRC Channel</a></li>
+              <li><i class="glyphicon glyphicon-home icon-muted"></i><a href="https://pylonsproject.org">Pylons Project</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="copyright">
+            Copyright &copy; Pylons Project
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="//code.jquery.com/jquery-1.12.4.min.js" integrity="sha256
+#
+T 172.31.31.148:6543 -> 46.193.68.24:55011 [AP] #1765
+-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+
+##
+T 46.193.68.24:55011 -> 172.31.31.148:6543 [AP] #1767
+GET / HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+Cache-Control: max-age=0.
+Upgrade-Insecure-Requests: 1.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+.
+
+#
+T 172.31.31.148:6543 -> 46.193.68.24:55011 [AP] #1768
+HTTP/1.1 404 Not Found.
+Content-Length: 3218.
+Content-Type: text/html; charset=UTF-8.
+Date: Wed, 20 Dec 2023 21:31:31 GMT.
+Server: waitress.
+.
+
+#
+T 172.31.31.148:6543 -> 46.193.68.24:55011 [AP] #1769
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="pyramid web application">
+    <meta name="author" content="Pylons Project">
+    <link rel="shortcut icon" href="http://52.201.230.99:6543/static/pyramid-16x16.png">
+
+    <title>Cookiecutter Starter project for the Pyramid Web Framework</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Custom styles for this scaffold -->
+    <link href="http://52.201.230.99:6543/static/theme.css" rel="stylesheet">
+
+    <!-- HTML5 shiv and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js" integrity="sha384-0s5Pv64cNZJieYFkXYOTId2HMA2Lfb6q2nAcx2n0RTLUnCAoTTsS0nKEO27XyKcY" crossorigin="anonymous"></script>
+      <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js" integrity="sha384-ZoaMbDF+4LeFxg6WdScQ9nnR1QC2MIRxA1O9KWEXQwns1G8UNyIEZIQidzb0T1fo" crossorigin="anonymous"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="starter-template">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2">
+            <img class="logo img-responsive" src="http://52.201.230.99:6543/static/pyramid.png" alt="pyramid web framework">
+          </div>
+          <div class="col-md-10">
+            <div>
+
+        <div class="content">
+            <h1><span class="font-semi-bold">Pyramid</span> <span class="smaller">Starter project</span></h1>
+            <p class="lead"><span class="font-semi-bold">404</span> Page Not Found</p>
+        </div>
+
+    </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="links">
+            <ul>
+              <li><i class="glyphicon glyphicon-cog icon-muted"></i><a href="https://github.com/Pylons/pyramid">Github Project</a></li>
+              <li><i class="glyphicon glyphicon-globe icon-muted"></i><a href="https://webchat.freenode.net/?channels=pyramid">IRC Channel</a></li>
+              <li><i class="glyphicon glyphicon-home icon-muted"></i><a href="https://pylonsproject.org">Pylons Project</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="copyright">
+            Copyright &copy; Pylons Project
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="//code.jquery.com/jquery-1.12.4.min.js" integrity="sha256
+#
+T 172.31.31.148:6543 -> 46.193.68.24:55011 [AP] #1770
+-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+
+##
+T 46.193.68.24:55011 -> 172.31.31.148:6543 [AP] #1772
+GET / HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+Cache-Control: max-age=0.
+Upgrade-Insecure-Requests: 1.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+.
+
+#
+T 172.31.31.148:6543 -> 46.193.68.24:55011 [AP] #1773
+HTTP/1.1 404 Not Found.
+Content-Length: 3218.
+Content-Type: text/html; charset=UTF-8.
+Date: Wed, 20 Dec 2023 21:32:06 GMT.
+Server: waitress.
+.
+
+#
+T 172.31.31.148:6543 -> 46.193.68.24:55011 [AP] #1774
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="pyramid web application">
+    <meta name="author" content="Pylons Project">
+    <link rel="shortcut icon" href="http://52.201.230.99:6543/static/pyramid-16x16.png">
+
+    <title>Cookiecutter Starter project for the Pyramid Web Framework</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Custom styles for this scaffold -->
+    <link href="http://52.201.230.99:6543/static/theme.css" rel="stylesheet">
+
+    <!-- HTML5 shiv and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js" integrity="sha384-0s5Pv64cNZJieYFkXYOTId2HMA2Lfb6q2nAcx2n0RTLUnCAoTTsS0nKEO27XyKcY" crossorigin="anonymous"></script>
+      <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js" integrity="sha384-ZoaMbDF+4LeFxg6WdScQ9nnR1QC2MIRxA1O9KWEXQwns1G8UNyIEZIQidzb0T1fo" crossorigin="anonymous"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="starter-template">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2">
+            <img class="logo img-responsive" src="http://52.201.230.99:6543/static/pyramid.png" alt="pyramid web framework">
+          </div>
+          <div class="col-md-10">
+            <div>
+
+        <div class="content">
+            <h1><span class="font-semi-bold">Pyramid</span> <span class="smaller">Starter project</span></h1>
+            <p class="lead"><span class="font-semi-bold">404</span> Page Not Found</p>
+        </div>
+
+    </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="links">
+            <ul>
+              <li><i class="glyphicon glyphicon-cog icon-muted"></i><a href="https://github.com/Pylons/pyramid">Github Project</a></li>
+              <li><i class="glyphicon glyphicon-globe icon-muted"></i><a href="https://webchat.freenode.net/?channels=pyramid">IRC Channel</a></li>
+              <li><i class="glyphicon glyphicon-home icon-muted"></i><a href="https://pylonsproject.org">Pylons Project</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="copyright">
+            Copyright &copy; Pylons Project
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="//code.jquery.com/jquery-1.12.4.min.js" integrity="sha256
+#
+T 172.31.31.148:6543 -> 46.193.68.24:55011 [AP] #1775
+-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+
+##
+T 46.193.68.24:55011 -> 172.31.31.148:6543 [AP] #1777
+GET / HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+Cache-Control: max-age=0.
+Upgrade-Insecure-Requests: 1.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+.
+
+#
+T 172.31.31.148:6543 -> 46.193.68.24:55011 [AP] #1778
+HTTP/1.1 404 Not Found.
+Content-Length: 3218.
+Content-Type: text/html; charset=UTF-8.
+Date: Wed, 20 Dec 2023 21:32:09 GMT.
+Server: waitress.
+.
+
+#
+T 172.31.31.148:6543 -> 46.193.68.24:55011 [AP] #1779
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="pyramid web application">
+    <meta name="author" content="Pylons Project">
+    <link rel="shortcut icon" href="http://52.201.230.99:6543/static/pyramid-16x16.png">
+
+    <title>Cookiecutter Starter project for the Pyramid Web Framework</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Custom styles for this scaffold -->
+    <link href="http://52.201.230.99:6543/static/theme.css" rel="stylesheet">
+
+    <!-- HTML5 shiv and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js" integrity="sha384-0s5Pv64cNZJieYFkXYOTId2HMA2Lfb6q2nAcx2n0RTLUnCAoTTsS0nKEO27XyKcY" crossorigin="anonymous"></script>
+      <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js" integrity="sha384-ZoaMbDF+4LeFxg6WdScQ9nnR1QC2MIRxA1O9KWEXQwns1G8UNyIEZIQidzb0T1fo" crossorigin="anonymous"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="starter-template">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2">
+            <img class="logo img-responsive" src="http://52.201.230.99:6543/static/pyramid.png" alt="pyramid web framework">
+          </div>
+          <div class="col-md-10">
+            <div>
+
+        <div class="content">
+            <h1><span class="font-semi-bold">Pyramid</span> <span class="smaller">Starter project</span></h1>
+            <p class="lead"><span class="font-semi-bold">404</span> Page Not Found</p>
+        </div>
+
+    </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="links">
+            <ul>
+              <li><i class="glyphicon glyphicon-cog icon-muted"></i><a href="https://github.com/Pylons/pyramid">Github Project</a></li>
+              <li><i class="glyphicon glyphicon-globe icon-muted"></i><a href="https://webchat.freenode.net/?channels=pyramid">IRC Channel</a></li>
+              <li><i class="glyphicon glyphicon-home icon-muted"></i><a href="https://pylonsproject.org">Pylons Project</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="copyright">
+            Copyright &copy; Pylons Project
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="//code.jquery.com/jquery-1.12.4.min.js" integrity="sha256
+#
+T 172.31.31.148:6543 -> 46.193.68.24:55011 [AP] #1780
+-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+
+##
+T 46.193.68.24:55012 -> 172.31.31.148:6543 [A] #1782
+.
+####################
+T 46.193.68.24:55037 -> 172.31.31.148:6543 [AP] #1802
+GET / HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+Cache-Control: max-age=0.
+Upgrade-Insecure-Requests: 1.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+.
+
+##
+T 172.31.31.148:6543 -> 46.193.68.24:55037 [AP] #1804
+HTTP/1.1 200 OK.
+Content-Length: 569.
+Content-Type: text/html; charset=UTF-8.
+Date: Wed, 20 Dec 2023 21:32:17 GMT.
+Server: waitress.
+.
+
+#
+T 172.31.31.148:6543 -> 46.193.68.24:55037 [AP] #1805
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello World Page</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-size: 2em;
+            font-weight: bold;
+        }
+        a {
+            margin-top: 20px;
+            font-size: 0.5em;
+        }
+    </style>
+</head>
+<body>
+    Hello, World!
+    <a href="/inscription">Inscription</a>
+</body>
+</html>
+
+##
+T 46.193.68.24:55037 -> 172.31.31.148:6543 [AP] #1807
+GET /inscription HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+Upgrade-Insecure-Requests: 1.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7.
+Referer: http://52.201.230.99:6543/.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+.
+
+#
+T 172.31.31.148:6543 -> 46.193.68.24:55037 [AP] #1808
+HTTP/1.1 200 OK.
+Content-Length: 833.
+Content-Type: text/html; charset=UTF-8.
+Date: Wed, 20 Dec 2023 21:32:20 GMT.
+Server: waitress.
+.
+
+#
+T 172.31.31.148:6543 -> 46.193.68.24:55037 [AP] #1809
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Inscription</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            margin: auto;
+        }
+        input, button {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form action="/inscription" method="post">
+        <label for="username">Nom d'utilisateur:</label>
+        <input type="text" id="username" name="username" required>
+        <label for="password">Mot de passe:</label>
+        <input type="password" id="password" name="password" required>
+        <button type="submit">S'inscrire</button>
+    </form>
+</body>
+</html>
+
+##
+T 46.193.68.24:55037 -> 172.31.31.148:6543 [AP] #1811
+POST /inscription HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+Content-Length: 30.
+Cache-Control: max-age=0.
+Upgrade-Insecure-Requests: 1.
+Origin: http://52.201.230.99:6543.
+Content-Type: application/x-www-form-urlencoded.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7.
+Referer: http://52.201.230.99:6543/inscription.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+.
+username=username&password=dqs
+#
+T 172.31.31.148:6543 -> 46.193.68.24:55037 [AP] #1812
+HTTP/1.1 400 Bad Request.
+Content-Length: 25.
+Content-Type: text/html; charset=UTF-8.
+Date: Wed, 20 Dec 2023 21:32:30 GMT.
+Server: waitress.
+.
+
+#
+T 172.31.31.148:6543 -> 46.193.68.24:55037 [AP] #1813
+Utilisateur existe d..j..
+##
+T 46.193.68.24:55036 -> 172.31.31.148:6543 [A] #1815
+.
+##
+T 46.193.68.24:55037 -> 172.31.31.148:6543 [A] #1817
+.
+########
+T 46.193.68.24:55037 -> 172.31.31.148:6543 [A] #1825
+.
+##
+T 46.193.68.24:55059 -> 172.31.31.148:6543 [A] #1827
+.
+##
+T 46.193.68.24:55037 -> 172.31.31.148:6543 [A] #1829
+.
+###############
+T 46.193.68.24:55161 -> 172.31.31.148:6543 [AP] #1844
+GET / HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+Upgrade-Insecure-Requests: 1.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+.
+
+##
+T 172.31.31.148:6543 -> 46.193.68.24:55161 [AP] #1846
+HTTP/1.1 200 OK.
+Content-Length: 569.
+Content-Type: text/html; charset=UTF-8.
+Date: Wed, 20 Dec 2023 21:40:25 GMT.
+Server: waitress.
+.
+
+#
+T 172.31.31.148:6543 -> 46.193.68.24:55161 [AP] #1847
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello World Page</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-size: 2em;
+            font-weight: bold;
+        }
+        a {
+            margin-top: 20px;
+            font-size: 0.5em;
+        }
+    </style>
+</head>
+<body>
+    Hello, World!
+    <a href="/inscription">Inscription</a>
+</body>
+</html>
+
+##
+T 46.193.68.24:55161 -> 172.31.31.148:6543 [AP] #1849
+GET /inscription HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+Upgrade-Insecure-Requests: 1.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7.
+Referer: http://52.201.230.99:6543/.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+.
+
+#
+T 172.31.31.148:6543 -> 46.193.68.24:55161 [AP] #1850
+HTTP/1.1 200 OK.
+Content-Length: 963.
+Content-Type: text/html; charset=UTF-8.
+Date: Wed, 20 Dec 2023 21:40:28 GMT.
+Server: waitress.
+.
+
+#
+T 172.31.31.148:6543 -> 46.193.68.24:55161 [AP] #1851
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Inscription</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            margin: auto;
+        }
+        input, button {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+<!-- ... le reste de votre code HTML ... -->
+<form action="/inscription" method="post">
+    <!-- ... autres ..l..ments de formulaire ... -->
+    
+    <label for="username">Nom d'utilisateur:</label>
+    <input type="text" id="username" name="username" value="" required>
+    <label for="password">Mot de passe:</label>
+    <input type="password" id="password" name="password" required>
+    <button type="submit">S'inscrire</button>
+</form>
+<!-- ... le reste de votre code HTML ... -->
+
+</body>
+</html>
+
+##
+T 46.193.68.24:55161 -> 172.31.31.148:6543 [AP] #1853
+POST /inscription HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+Content-Length: 35.
+Cache-Control: max-age=0.
+Upgrade-Insecure-Requests: 1.
+Origin: http://52.201.230.99:6543.
+Content-Type: application/x-www-form-urlencoded.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7.
+Referer: http://52.201.230.99:6543/inscription.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+.
+username=username&password=password
+#
+T 172.31.31.148:6543 -> 46.193.68.24:55161 [AP] #1854
+HTTP/1.1 200 OK.
+Content-Length: 1042.
+Content-Type: text/html; charset=UTF-8.
+Date: Wed, 20 Dec 2023 21:40:33 GMT.
+Server: waitress.
+.
+
+#
+T 172.31.31.148:6543 -> 46.193.68.24:55161 [AP] #1855
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Inscription</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            margin: auto;
+        }
+        input, button {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+<!-- ... le reste de votre code HTML ... -->
+<form action="/inscription" method="post">
+    <!-- ... autres ..l..ments de formulaire ... -->
+    <div style="color: red;">
+        Utilisateur existe d..j...
+    </div>
+    <label for="username">Nom d'utilisateur:</label>
+    <input type="text" id="username" name="username" value="username" required>
+    <label for="password">Mot de passe:</label>
+    <input type="password" id="password" name="password" required>
+    <button type="submit">S'inscrire</button>
+</form>
+<!-- ... le reste de votre code HTML ... -->
+
+</body>
+</html>
+
+##
+T 46.193.68.24:55161 -> 172.31.31.148:6543 [AP] #1857
+POST /inscription HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+Content-Length: 27.
+Cache-Control: max-age=0.
+Upgrade-Insecure-Requests: 1.
+Origin: http://52.201.230.99:6543.
+Content-Type: application/x-www-form-urlencoded.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7.
+Referer: http://52.201.230.99:6543/inscription.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+.
+username=test&password=test
+#
+T 172.31.31.148:6543 -> 46.193.68.24:55161 [AP] #1858
+HTTP/1.1 302 Found.
+Content-Length: 198.
+Content-Type: text/html; charset=UTF-8.
+Date: Wed, 20 Dec 2023 21:40:46 GMT.
+Location: http://52.201.230.99:6543/home.
+Refresh: 1.5.
+Server: waitress.
+.
+
+#
+T 172.31.31.148:6543 -> 46.193.68.24:55161 [AP] #1859
+<html>
+ <head>
+  <title>302 Found</title>
+ </head>
+ <body>
+  <h1>302 Found</h1>
+  The resource was found at http://52.201.230.99:6543/home; you should be redirected automatically.
+
+
+ </body>
+</html>
+##
+T 46.193.68.24:55161 -> 172.31.31.148:6543 [AP] #1861
+GET /home HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+Cache-Control: max-age=0.
+Upgrade-Insecure-Requests: 1.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7.
+Referer: http://52.201.230.99:6543/inscription.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+.
+
+##
+T 172.31.31.148:6543 -> 46.193.68.24:55161 [AP] #1863
+HTTP/1.1 404 Not Found.
+Content-Length: 3218.
+Content-Type: text/html; charset=UTF-8.
+Date: Wed, 20 Dec 2023 21:40:46 GMT.
+Server: waitress.
+.
+
+#
+T 172.31.31.148:6543 -> 46.193.68.24:55161 [AP] #1864
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="pyramid web application">
+    <meta name="author" content="Pylons Project">
+    <link rel="shortcut icon" href="http://52.201.230.99:6543/static/pyramid-16x16.png">
+
+    <title>Cookiecutter Starter project for the Pyramid Web Framework</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Custom styles for this scaffold -->
+    <link href="http://52.201.230.99:6543/static/theme.css" rel="stylesheet">
+
+    <!-- HTML5 shiv and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js" integrity="sha384-0s5Pv64cNZJieYFkXYOTId2HMA2Lfb6q2nAcx2n0RTLUnCAoTTsS0nKEO27XyKcY" crossorigin="anonymous"></script>
+      <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js" integrity="sha384-ZoaMbDF+4LeFxg6WdScQ9nnR1QC2MIRxA1O9KWEXQwns1G8UNyIEZIQidzb0T1fo" crossorigin="anonymous"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="starter-template">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2">
+            <img class="logo img-responsive" src="http://52.201.230.99:6543/static/pyramid.png" alt="pyramid web framework">
+          </div>
+          <div class="col-md-10">
+            <div>
+
+        <div class="content">
+            <h1><span class="font-semi-bold">Pyramid</span> <span class="smaller">Starter project</span></h1>
+            <p class="lead"><span class="font-semi-bold">404</span> Page Not Found</p>
+        </div>
+
+    </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="links">
+            <ul>
+              <li><i class="glyphicon glyphicon-cog icon-muted"></i><a href="https://github.com/Pylons/pyramid">Github Project</a></li>
+              <li><i class="glyphicon glyphicon-globe icon-muted"></i><a href="https://webchat.freenode.net/?channels=pyramid">IRC Channel</a></li>
+              <li><i class="glyphicon glyphicon-home icon-muted"></i><a href="https://pylonsproject.org">Pylons Project</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="copyright">
+            Copyright &copy; Pylons Project
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="//code.jquery.com/jquery-1.12.4.min.js" integrity="sha256
+#
+T 172.31.31.148:6543 -> 46.193.68.24:55161 [AP] #1865
+-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+
+##
+T 46.193.68.24:55162 -> 172.31.31.148:6543 [A] #1867
+.
+##
+T 46.193.68.24:55161 -> 172.31.31.148:6543 [AP] #1869
+GET / HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+Upgrade-Insecure-Requests: 1.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+.
+
+##
+T 172.31.31.148:6543 -> 46.193.68.24:55161 [AP] #1871
+HTTP/1.1 200 OK.
+Content-Length: 569.
+Content-Type: text/html; charset=UTF-8.
+Date: Wed, 20 Dec 2023 21:41:06 GMT.
+Server: waitress.
+.
+
+#
+T 172.31.31.148:6543 -> 46.193.68.24:55161 [AP] #1872
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello World Page</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-size: 2em;
+            font-weight: bold;
+        }
+        a {
+            margin-top: 20px;
+            font-size: 0.5em;
+        }
+    </style>
+</head>
+<body>
+    Hello, World!
+    <a href="/inscription">Inscription</a>
+</body>
+</html>
+
+##
+T 46.193.68.24:55161 -> 172.31.31.148:6543 [AP] #1874
+GET /inscription HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+Upgrade-Insecure-Requests: 1.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7.
+Referer: http://52.201.230.99:6543/.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+.
+
+#
+T 172.31.31.148:6543 -> 46.193.68.24:55161 [AP] #1875
+HTTP/1.1 200 OK.
+Content-Length: 963.
+Content-Type: text/html; charset=UTF-8.
+Date: Wed, 20 Dec 2023 21:41:08 GMT.
+Server: waitress.
+.
+
+#
+T 172.31.31.148:6543 -> 46.193.68.24:55161 [AP] #1876
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Inscription</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            margin: auto;
+        }
+        input, button {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+<!-- ... le reste de votre code HTML ... -->
+<form action="/inscription" method="post">
+    <!-- ... autres ..l..ments de formulaire ... -->
+    
+    <label for="username">Nom d'utilisateur:</label>
+    <input type="text" id="username" name="username" value="" required>
+    <label for="password">Mot de passe:</label>
+    <input type="password" id="password" name="password" required>
+    <button type="submit">S'inscrire</button>
+</form>
+<!-- ... le reste de votre code HTML ... -->
+
+</body>
+</html>
+
+##
+T 46.193.68.24:55161 -> 172.31.31.148:6543 [AP] #1878
+POST /inscription HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+Content-Length: 31.
+Cache-Control: max-age=0.
+Upgrade-Insecure-Requests: 1.
+Origin: http://52.201.230.99:6543.
+Content-Type: application/x-www-form-urlencoded.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7.
+Referer: http://52.201.230.99:6543/inscription.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+.
+username=username&password=dsqd
+#
+T 172.31.31.148:6543 -> 46.193.68.24:55161 [AP] #1879
+HTTP/1.1 200 OK.
+Content-Length: 1042.
+Content-Type: text/html; charset=UTF-8.
+Date: Wed, 20 Dec 2023 21:41:13 GMT.
+Server: waitress.
+.
+
+#
+T 172.31.31.148:6543 -> 46.193.68.24:55161 [AP] #1880
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Inscription</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            margin: auto;
+        }
+        input, button {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+<!-- ... le reste de votre code HTML ... -->
+<form action="/inscription" method="post">
+    <!-- ... autres ..l..ments de formulaire ... -->
+    <div style="color: red;">
+        Utilisateur existe d..j...
+    </div>
+    <label for="username">Nom d'utilisateur:</label>
+    <input type="text" id="username" name="username" value="username" required>
+    <label for="password">Mot de passe:</label>
+    <input type="password" id="password" name="password" required>
+    <button type="submit">S'inscrire</button>
+</form>
+<!-- ... le reste de votre code HTML ... -->
+
+</body>
+</html>
+
+########
+T 46.193.68.24:55161 -> 172.31.31.148:6543 [A] #1888
+.
+##
+T 46.193.68.24:55184 -> 172.31.31.148:6543 [A] #1890
+.
+##############
+T 46.193.68.24:55275 -> 172.31.31.148:6543 [AP] #1904
+GET / HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+Upgrade-Insecure-Requests: 1.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+.
+
+##
+T 172.31.31.148:6543 -> 46.193.68.24:55275 [AP] #1906
+HTTP/1.1 200 OK.
+Content-Length: 569.
+Content-Type: text/html; charset=UTF-8.
+Date: Wed, 20 Dec 2023 21:46:36 GMT.
+Server: waitress.
+.
+
+#
+T 172.31.31.148:6543 -> 46.193.68.24:55275 [AP] #1907
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello World Page</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-size: 2em;
+            font-weight: bold;
+        }
+        a {
+            margin-top: 20px;
+            font-size: 0.5em;
+        }
+    </style>
+</head>
+<body>
+    Hello, World!
+    <a href="/inscription">Inscription</a>
+</body>
+</html>
+
+##
+T 46.193.68.24:55275 -> 172.31.31.148:6543 [AP] #1909
+GET /inscription HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+Upgrade-Insecure-Requests: 1.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7.
+Referer: http://52.201.230.99:6543/.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+.
+
+#
+T 172.31.31.148:6543 -> 46.193.68.24:55275 [AP] #1910
+HTTP/1.1 200 OK.
+Content-Length: 1068.
+Content-Type: text/html; charset=UTF-8.
+Date: Wed, 20 Dec 2023 21:46:38 GMT.
+Server: waitress.
+.
+
+#
+T 172.31.31.148:6543 -> 46.193.68.24:55275 [AP] #1911
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Inscription</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            margin: auto;
+        }
+        input, button {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+<!-- ... le reste de votre code HTML ... -->
+<form action="/inscription" method="post">
+    <!-- ... autres ..l..ments de formulaire ... -->
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" value="" required>
+    <label for="username">Nom d'utilisateur:</label>
+    <input type="text" id="username" name="username" value="" required>
+    <label for="password">Mot de passe:</label>
+    <input type="password" id="password" name="password" required>
+    <button type="submit">S'inscrire</button>
+</form>
+<!-- ... le reste de votre code HTML ... -->
+
+</body>
+</html>
+
+##
+T 46.193.68.24:55275 -> 172.31.31.148:6543 [AP] #1913
+POST /inscription HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+Content-Length: 50.
+Cache-Control: max-age=0.
+Upgrade-Insecure-Requests: 1.
+Origin: http://52.201.230.99:6543.
+Content-Type: application/x-www-form-urlencoded.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7.
+Referer: http://52.201.230.99:6543/inscription.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+.
+email=test%40test.test&username=test&password=test
+#
+T 172.31.31.148:6543 -> 46.193.68.24:55275 [AP] #1914
+HTTP/1.1 302 Found.
+Content-Length: 198.
+Content-Type: text/html; charset=UTF-8.
+Date: Wed, 20 Dec 2023 21:46:49 GMT.
+Location: http://52.201.230.99:6543/home.
+Refresh: 1.5.
+Server: waitress.
+.
+
+#
+T 172.31.31.148:6543 -> 46.193.68.24:55275 [AP] #1915
+<html>
+ <head>
+  <title>302 Found</title>
+ </head>
+ <body>
+  <h1>302 Found</h1>
+  The resource was found at http://52.201.230.99:6543/home; you should be redirected automatically.
+
+
+ </body>
+</html>
+##
+T 46.193.68.24:55275 -> 172.31.31.148:6543 [AP] #1917
+GET /home HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+Cache-Control: max-age=0.
+Upgrade-Insecure-Requests: 1.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7.
+Referer: http://52.201.230.99:6543/inscription.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+.
+
+##
+T 172.31.31.148:6543 -> 46.193.68.24:55275 [AP] #1919
+HTTP/1.1 404 Not Found.
+Content-Length: 3218.
+Content-Type: text/html; charset=UTF-8.
+Date: Wed, 20 Dec 2023 21:46:49 GMT.
+Server: waitress.
+.
+
+#
+T 172.31.31.148:6543 -> 46.193.68.24:55275 [AP] #1920
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="pyramid web application">
+    <meta name="author" content="Pylons Project">
+    <link rel="shortcut icon" href="http://52.201.230.99:6543/static/pyramid-16x16.png">
+
+    <title>Cookiecutter Starter project for the Pyramid Web Framework</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Custom styles for this scaffold -->
+    <link href="http://52.201.230.99:6543/static/theme.css" rel="stylesheet">
+
+    <!-- HTML5 shiv and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js" integrity="sha384-0s5Pv64cNZJieYFkXYOTId2HMA2Lfb6q2nAcx2n0RTLUnCAoTTsS0nKEO27XyKcY" crossorigin="anonymous"></script>
+      <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js" integrity="sha384-ZoaMbDF+4LeFxg6WdScQ9nnR1QC2MIRxA1O9KWEXQwns1G8UNyIEZIQidzb0T1fo" crossorigin="anonymous"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="starter-template">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2">
+            <img class="logo img-responsive" src="http://52.201.230.99:6543/static/pyramid.png" alt="pyramid web framework">
+          </div>
+          <div class="col-md-10">
+            <div>
+
+        <div class="content">
+            <h1><span class="font-semi-bold">Pyramid</span> <span class="smaller">Starter project</span></h1>
+            <p class="lead"><span class="font-semi-bold">404</span> Page Not Found</p>
+        </div>
+
+    </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="links">
+            <ul>
+              <li><i class="glyphicon glyphicon-cog icon-muted"></i><a href="https://github.com/Pylons/pyramid">Github Project</a></li>
+              <li><i class="glyphicon glyphicon-globe icon-muted"></i><a href="https://webchat.freenode.net/?channels=pyramid">IRC Channel</a></li>
+              <li><i class="glyphicon glyphicon-home icon-muted"></i><a href="https://pylonsproject.org">Pylons Project</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="copyright">
+            Copyright &copy; Pylons Project
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="//code.jquery.com/jquery-1.12.4.min.js" integrity="sha256
+#
+T 172.31.31.148:6543 -> 46.193.68.24:55275 [AP] #1921
+-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+
+##
+T 46.193.68.24:55275 -> 172.31.31.148:6543 [AP] #1923
+GET /inscription HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+Upgrade-Insecure-Requests: 1.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7.
+Referer: http://52.201.230.99:6543/.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+.
+
+##
+T 172.31.31.148:6543 -> 46.193.68.24:55275 [AP] #1925
+HTTP/1.1 200 OK.
+Content-Length: 1068.
+Content-Type: text/html; charset=UTF-8.
+Date: Wed, 20 Dec 2023 21:46:53 GMT.
+Server: waitress.
+.
+
+#
+T 172.31.31.148:6543 -> 46.193.68.24:55275 [AP] #1926
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Inscription</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            margin: auto;
+        }
+        input, button {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+<!-- ... le reste de votre code HTML ... -->
+<form action="/inscription" method="post">
+    <!-- ... autres ..l..ments de formulaire ... -->
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" value="" required>
+    <label for="username">Nom d'utilisateur:</label>
+    <input type="text" id="username" name="username" value="" required>
+    <label for="password">Mot de passe:</label>
+    <input type="password" id="password" name="password" required>
+    <button type="submit">S'inscrire</button>
+</form>
+<!-- ... le reste de votre code HTML ... -->
+
+</body>
+</html>
+
+##
+T 46.193.68.24:55275 -> 172.31.31.148:6543 [AP] #1928
+POST /inscription HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+Content-Length: 50.
+Cache-Control: max-age=0.
+Upgrade-Insecure-Requests: 1.
+Origin: http://52.201.230.99:6543.
+Content-Type: application/x-www-form-urlencoded.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7.
+Referer: http://52.201.230.99:6543/inscription.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+.
+email=test%40test.test&username=test&password=dqsd
+#
+T 172.31.31.148:6543 -> 46.193.68.24:55275 [AP] #1929
+HTTP/1.1 500 Internal Server Error.
+Connection: close.
+Content-Length: 110.
+Content-Type: text/plain; charset=utf-8.
+Date: Wed, 20 Dec 2023 21:46:56 GMT.
+Server: waitress.
+.
+
+#
+T 172.31.31.148:6543 -> 46.193.68.24:55275 [AP] #1930
+Internal Server Error.
+.
+The server encountered an unexpected internal server error.
+.
+(generated by waitress)
+########
+T 46.193.68.24:55276 -> 172.31.31.148:6543 [A] #1938
+.
+################
+T 46.193.68.24:55298 -> 172.31.31.148:6543 [AP] #1954
+GET / HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+Upgrade-Insecure-Requests: 1.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+.
+
+##
+T 172.31.31.148:6543 -> 46.193.68.24:55298 [AP] #1956
+HTTP/1.1 200 OK.
+Content-Length: 569.
+Content-Type: text/html; charset=UTF-8.
+Date: Wed, 20 Dec 2023 21:47:45 GMT.
+Server: waitress.
+.
+
+#
+T 172.31.31.148:6543 -> 46.193.68.24:55298 [AP] #1957
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello World Page</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-size: 2em;
+            font-weight: bold;
+        }
+        a {
+            margin-top: 20px;
+            font-size: 0.5em;
+        }
+    </style>
+</head>
+<body>
+    Hello, World!
+    <a href="/inscription">Inscription</a>
+</body>
+</html>
+
+##
+T 46.193.68.24:55298 -> 172.31.31.148:6543 [AP] #1959
+GET /inscription HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+Upgrade-Insecure-Requests: 1.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7.
+Referer: http://52.201.230.99:6543/.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+.
+
+#
+T 172.31.31.148:6543 -> 46.193.68.24:55298 [AP] #1960
+HTTP/1.1 200 OK.
+Content-Length: 1068.
+Content-Type: text/html; charset=UTF-8.
+Date: Wed, 20 Dec 2023 21:47:47 GMT.
+Server: waitress.
+.
+
+#
+T 172.31.31.148:6543 -> 46.193.68.24:55298 [AP] #1961
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Inscription</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            margin: auto;
+        }
+        input, button {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+<!-- ... le reste de votre code HTML ... -->
+<form action="/inscription" method="post">
+    <!-- ... autres ..l..ments de formulaire ... -->
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" value="" required>
+    <label for="username">Nom d'utilisateur:</label>
+    <input type="text" id="username" name="username" value="" required>
+    <label for="password">Mot de passe:</label>
+    <input type="password" id="password" name="password" required>
+    <button type="submit">S'inscrire</button>
+</form>
+<!-- ... le reste de votre code HTML ... -->
+
+</body>
+</html>
+
+##
+T 46.193.68.24:55298 -> 172.31.31.148:6543 [AP] #1963
+POST /inscription HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+Content-Length: 50.
+Cache-Control: max-age=0.
+Upgrade-Insecure-Requests: 1.
+Origin: http://52.201.230.99:6543.
+Content-Type: application/x-www-form-urlencoded.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7.
+Referer: http://52.201.230.99:6543/inscription.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+.
+email=test%40test.test&username=test&password=test
+#
+T 172.31.31.148:6543 -> 46.193.68.24:55298 [AP] #1964
+HTTP/1.1 400 Bad Request.
+Content-Length: 255.
+Content-Type: text/html; charset=UTF-8.
+Date: Wed, 20 Dec 2023 21:47:53 GMT.
+Server: waitress.
+.
+
+#
+T 172.31.31.148:6543 -> 46.193.68.24:55298 [AP] #1965
+<html>
+ <head>
+  <title>400 Bad Request</title>
+ </head>
+ <body>
+  <h1>400 Bad Request</h1>
+  The server could not comply with the request since it is either malformed or otherwise incorrect.<br/><br/>
+Utilisateur existe d&#233;j&#224;.
+
+
+ </body>
+</html>
+##
+T 46.193.68.24:55299 -> 172.31.31.148:6543 [A] #1967
+.
+##
+T 46.193.68.24:55298 -> 172.31.31.148:6543 [A] #1969
+.
+########
+T 46.193.68.24:55298 -> 172.31.31.148:6543 [A] #1977
+.
+##
+T 46.193.68.24:55315 -> 172.31.31.148:6543 [A] #1979
+.
+#####
+T 46.193.68.24:55298 -> 172.31.31.148:6543 [A] #1984
+.
+############
+T 46.193.68.24:55359 -> 172.31.31.148:6543 [AP] #1996
+GET / HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+Upgrade-Insecure-Requests: 1.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+.
+
+##
+T 172.31.31.148:6543 -> 46.193.68.24:55359 [AP] #1998
+HTTP/1.1 200 OK.
+Content-Length: 569.
+Content-Type: text/html; charset=UTF-8.
+Date: Wed, 20 Dec 2023 21:51:33 GMT.
+Server: waitress.
+.
+
+#
+T 172.31.31.148:6543 -> 46.193.68.24:55359 [AP] #1999
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello World Page</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-size: 2em;
+            font-weight: bold;
+        }
+        a {
+            margin-top: 20px;
+            font-size: 0.5em;
+        }
+    </style>
+</head>
+<body>
+    Hello, World!
+    <a href="/inscription">Inscription</a>
+</body>
+</html>
+
+##
+T 46.193.68.24:55359 -> 172.31.31.148:6543 [AP] #2001
+GET /inscription HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+Upgrade-Insecure-Requests: 1.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7.
+Referer: http://52.201.230.99:6543/.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+.
+
+#
+T 172.31.31.148:6543 -> 46.193.68.24:55359 [AP] #2002
+HTTP/1.1 200 OK.
+Content-Length: 1119.
+Content-Type: text/html; charset=UTF-8.
+Date: Wed, 20 Dec 2023 21:51:35 GMT.
+Server: waitress.
+.
+
+#
+T 172.31.31.148:6543 -> 46.193.68.24:55359 [AP] #2003
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Inscription</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            margin: auto;
+        }
+        input, button {
+            margin-top: 10px;
+        }
+        .error {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<!-- ... le reste de votre code HTML ... -->
+
+<form action="/inscription" method="post">    <!-- ... autres ..l..ments de formulaire ... -->
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" value="" required>
+    <label for="username">Nom d'utilisateur:</label>
+    <input type="text" id="username" name="username" value="" required>
+    <label for="password">Mot de passe:</label>
+    <input type="password" id="password" name="password" required>
+    <button type="submit">S'inscrire</button>
+</form>
+<!-- ... le reste de votre code HTML ... -->
+
+</body>
+</html>
+
+##
+T 46.193.68.24:55359 -> 172.31.31.148:6543 [AP] #2005
+POST /inscription HTTP/1.1.
+Host: 52.201.230.99:6543.
+Connection: keep-alive.
+Content-Length: 49.
+Cache-Control: max-age=0.
+Upgrade-Insecure-Requests: 1.
+Origin: http://52.201.230.99:6543.
+Content-Type: application/x-www-form-urlencoded.
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0.
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7.
+Referer: http://52.201.230.99:6543/inscription.
+Accept-Encoding: gzip, deflate.
+Accept-Language: fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6.
+.
+email=test%40test.com&username=test&password=test
+#
+T 172.31.31.148:6543 -> 46.193.68.24:55359 [AP] #2006
+HTTP/1.1 200 OK.
+Content-Length: 1258.
+Content-Type: text/html; charset=UTF-8.
+Date: Wed, 20 Dec 2023 21:51:42 GMT.
+Server: waitress.
+.
+
+#
+T 172.31.31.148:6543 -> 46.193.68.24:55359 [AP] #2007
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Inscription</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            margin: auto;
+        }
+        input, button {
+            margin-top: 10px;
+        }
+        .error {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<!-- ... le reste de votre code HTML ... -->
+<div class="error">Utilisateur existe d..j...</div>
+<form action="/inscription" method="post">    <!-- ... autres ..l..ments de formulaire ... -->
+    <div style="color: red;">
+        Utilisateur existe d..j...
+    </div>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" value="test@test.com" required>
+    <label for="username">Nom d'utilisateur:</label>
+    <input type="text" id="username" name="username" value="test" required>
+    <label for="password">Mot de passe:</label>
+    <input type="password" id="password" name="password" required>
+    <button type="submit">S'inscrire</button>
+</form>
+<!-- ... le reste de votre code HTML ... -->
+
+</body>
+</html>
+
+#################################################################################################################################

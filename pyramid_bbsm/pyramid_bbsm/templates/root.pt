@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello World Page</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-size: 2em;
+            font-weight: bold;
+        }
+        a {
+            margin-top: 20px;
+            font-size: 0.5em;
+        }
+    </style>
+</head>
+<body>
+    Hello, World!
+    <a href="/inscription">Inscription</a>
+</body>
+</html>

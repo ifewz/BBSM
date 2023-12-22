@@ -149,3 +149,19 @@ body, html {
     cursor: pointer;
 }
 
+.separator {
+    margin: 20px 0;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    line-height: 0.1em;
+}
+
+.separator::before {
+    content: '///';
+    padding-right: 10px;
+}
+
+.separator::after {
+    content: '///';
+    padding-left: 10px;
+}

@@ -9,10 +9,11 @@ from ..models import MyModel
 
 #@view_config(context=MyModel, renderer='pyramid_bbsm:templates/mytemplate.pt')
 
-@view_config(route_name='home', renderer='pyramid_bbsm:templates/index.pt')
+@view_config(route_name='home', renderer='pyramid_bbsm:templates/signin.pt')
 @view_config(route_name='login', renderer='pyramid_bbsm:templates/login.pt')
 @view_config(route_name='signup', renderer='pyramid_bbsm:templates/signup.pt')
 @view_config(route_name='profile', renderer='pyramid_bbsm:templates/profile.pt')
+@view_config(route_name='accueil', renderer='pyramid_bbsm:templates/accueil.pt')
 def my_view(request):
     return {'project': 'Pyramid_bbsm'}
 

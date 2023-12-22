@@ -8,8 +8,31 @@
     <div class="background-image">
         <div class="navigation">
             <a href="signup">Inscription</a>
-            <a href="signin">Connexion</a>
+            <a href="/">Connexion</a>
         </div>
+    </div>
+
+
+    <div class="form-container">
+        <!-- Section de soumission de commentaire -->
+        <h2>Laisser un Commentaire</h2>
+        <form id="comment-form">
+            <textarea id="comment" placeholder="Votre commentaire..."></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+
+        <!-- Section pour afficher les commentaires -->
+        <div id="comments-section">
+            <!-- Les commentaires seront affichés ici -->
+        </div>
+
+        <!-- Section de soumission d'image -->
+        <h2>Soumettre une Image</h2>
+        <form id="image-form">
+            <label for="image">Choisir une image:</label>
+            <input type="file" id="image" name="image" accept="image/*">
+            <button type="submit">Soumettre</button>
+        </form>
     </div>
 
     <div id="chat-container">
@@ -28,14 +51,6 @@
             <input type="text" id="chat-input" name="message" placeholder="Écrire un message...">
             <input type="submit" id="send-btn" value="Envoyer">
         </form>
-    </div>
-
-    <div id="chat-container">
-        <div id="chat-box">
-            <div id="messages"></div>
-        </div>
-        <input type="text" id="chat-input" placeholder="Écrire un message...">
-        <button id="send-btn">Envoyer</button>
     </div>
 
     <script src="../static/scripts.js"></script>

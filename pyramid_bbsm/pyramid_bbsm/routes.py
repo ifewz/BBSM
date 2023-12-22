@@ -9,4 +9,6 @@ def includeme(config):
     config.add_route('signup', "/signup")
     config.add_route('profile', "/profile")
     config.add_route('accueil', "/accueil")
+    config.add_route('get_messages', '/get_messages')
+    config.add_route('send_message', '/send_message')
 

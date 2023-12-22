@@ -11,16 +11,16 @@ from ..models import MyModel
 
 #@view_config(context=MyModel, renderer='pyramid_bbsm:templates/mytemplate.pt')
 
-@view_config(route_name='signin', renderer='pyramid_bbsm:templates/signin.pt')
+#@view_config(route_name='signin', renderer='pyramid_bbsm:templates/signin.pt')
 #@view_config(route_name='login', renderer='pyramid_bbsm:templates/login.pt')
-@view_config(route_name='signup', renderer='pyramid_bbsm:templates/signup.pt')
+#@view_config(route_name='signup', renderer='pyramid_bbsm:templates/signup.pt')
 @view_config(route_name='profile', renderer='pyramid_bbsm:templates/profile.pt')
-@view_config(route_name='accueil', renderer='pyramid_bbsm:templates/accueil.pt')
+#@view_config(route_name='accueil', renderer='pyramid_bbsm:templates/accueil.pt')
 def my_view(request):
     return {'project': 'Pyramid_bbsm'}
 
 
-
+# Fonction pour connexion
 @view_config(route_name='signin', renderer='pyramid_bbsm:templates/signin.pt', request_method='GET')
 def view_login(request):
     # Initialiser des valeurs vides pour le formulaire et aucun message d'erreur
@@ -76,7 +76,9 @@ def confirme_login(request):
         'error_message': "username ou mot de passe incorrect."
     }
 
-@view_config(route_name='signin', renderer='pyramid_bbsm:templates/signin.pt', request_method='GET')
+
+# Fonction pour inscription
+@view_config(route_name='signup', renderer='pyramid_bbsm:templates/signup.pt', request_method='GET')
 def view_login(request):
     return {
         'username': '',
@@ -127,6 +129,50 @@ def signup_view(request):
     headers = remember(request, username)
     return HTTPFound(location=request.route_url('accueil'), headers=headers)
 
+
+# Envoie de message
+@view_config(route_name='send_message', request_method='POST', renderer='json')
+def send_message(request):
+    # Récupérer le message depuis la requête
+    message = request.json_body.get('message')
+    
+    # Supposons que 'request.user' contient l'objet utilisateur actuel
+    # Si 'request.user' est None ou ne contient pas 'username', utilisez 'Guest'
+    username = getattr(request.user, 'username', 'Guest')
+    
+    if message:
+        # Construire l'entrée du message
+        message_entry = {'user': username, 'text': message}
+
+        # Ajouter le message à la liste existante
+        try:
+            with open('messages.json', 'r+') as file:
+                messages = json.load(file)
+                messages.append(message_entry)
+                file.seek(0)  # Revenir au début du fichier avant d'écrire
+                json.dump(messages, file, indent=4)
+        except (FileNotFoundError, json.JSONDecodeError):
+            # Si le fichier n'existe pas ou est vide/corrompu, créez un nouveau fichier
+            with open('messages.json', 'w') as file:
+                json.dump([message_entry], file, indent=4)
+                
+        return {'status': 'success', 'message': 'Message sent'}
+    else:
+        return {'status': 'error', 'message': 'No message to send'}
+    
+
+# Redirection accueil
+@view_config(route_name='accueil', renderer='pyramid_bbsm:templates/accueil.pt')
+def my_view(request):
+    # Charger les messages depuis le fichier JSON
+    try:
+        with open('messages.json', 'r') as file:
+            messages = json.load(file)
+    except (FileNotFoundError, json.JSONDecodeError):
+        messages = []  # Fournir une liste vide si le fichier n'existe pas ou s'il y a une erreur de lecture
+
+    # Retourner les messages à la vue
+    return {'project': 'Pyramid_bbsm', 'messages': messages}
 
 
 """

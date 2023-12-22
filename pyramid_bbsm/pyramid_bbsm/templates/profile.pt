@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="../static/style.css">
+    <title>Profil</title>
+</head>
+<body>
+    <div class="form-container">
+        <form action="path_to_server_side_script" method="POST">
+            <!-- Les champs du formulaire devraient être pré-remplis avec les données de l'utilisateur -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <!-- D'autres champs peuvent être ajoutés ici -->
+
+            <button type="submit">Mettre à jour le profil</button>
+        </form>
+    </div>
+</body>
+</html>

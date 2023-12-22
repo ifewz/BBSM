@@ -9,10 +9,15 @@ from ..models import MyModel
 
 #@view_config(context=MyModel, renderer='pyramid_bbsm:templates/mytemplate.pt')
 
-@view_config(route_name='root', renderer='pyramid_bbsm:templates/root.pt')
+@view_config(route_name='home', renderer='pyramid_bbsm:templates/index.pt')
+@view_config(route_name='login', renderer='pyramid_bbsm:templates/login.pt')
+@view_config(route_name='signup', renderer='pyramid_bbsm:templates/signup.pt')
+@view_config(route_name='profile', renderer='pyramid_bbsm:templates/profile.pt')
 def my_view(request):
     return {'project': 'Pyramid_bbsm'}
 
+
+"""
 @view_config(route_name='inscription', renderer='pyramid_bbsm:templates/inscription.pt', request_method='GET')
 def view_inscription(request):
     # Initialiser des valeurs vides pour le formulaire et aucun message d'erreur
@@ -79,3 +84,4 @@ def confirme_inscription(request):
 
     # Rediriger l'utilisateur après inscription réussie
     return HTTPFound(location=request.route_url('home'), headers={'Refresh': '1.5'})
+"""

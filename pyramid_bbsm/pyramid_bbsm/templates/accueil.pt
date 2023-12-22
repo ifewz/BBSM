@@ -8,29 +8,25 @@
     <div class="background-image">
         <div class="navigation">
             <a href="signup">Inscription</a>
-            <a href="login">Connexion</a>
+            <a href="signin">Connexion</a>
         </div>
     </div>
 
-    <div class="form-container">
-        <!-- Section de soumission de commentaire -->
-        <h2>Laisser un Commentaire</h2>
-        <form id="comment-form">
-            <textarea id="comment" placeholder="Votre commentaire..."></textarea>
-            <button type="submit">Envoyer</button>
-        </form>
-
-        <!-- Section pour afficher les commentaires -->
-        <div id="comments-section">
-            <!-- Les commentaires seront affichés ici -->
+    <div id="chat-container">
+        <div id="chat-box">
+            <div id="messages">
+                <!-- Ici, vous pouvez itérer sur les messages stockés côté serveur et les afficher -->
+                <tal:block tal:repeat="message messages">
+                    <div class="message">
+                        <strong tal:content="message['user']">Nom d'utilisateur</strong>:
+                        <span tal:content="message['text']">Texte du message</span>
+                    </div>
+                </tal:block>
+            </div>
         </div>
-
-        <!-- Section de soumission d'image -->
-        <h2>Soumettre une Image</h2>
-        <form id="image-form">
-            <label for="image">Choisir une image:</label>
-            <input type="file" id="image" name="image" accept="image/*">
-            <button type="submit">Soumettre</button>
+        <form id="chat-form" method="POST" action="${request.route_url('send_message')}">
+            <input type="text" id="chat-input" name="message" placeholder="Écrire un message...">
+            <input type="submit" id="send-btn" value="Envoyer">
         </form>
     </div>
 

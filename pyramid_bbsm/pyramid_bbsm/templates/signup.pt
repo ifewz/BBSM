@@ -7,17 +7,24 @@
 <body>
     <div class="form-container">
         <h2>Inscription</h2>
-        <form action="path_to_server_side_script" method="POST">
-             <label for="signup-username">Nom d'utilisateur:</label>
-            <input type="text" id="signup-username" name="username" required>
+        <form action="${request.route_url('signup')}" method="POST">
+            <label for="username">Nom d'utilisateur:</label>
+            <input type="text" id="username" name="username" value="${request.POST.get('username', '')}" required>
 
-            <label for="signup-password">Créer un Mot de Passe:</label>
-            <input type="password" id="signup-password" name="password" required>
+            <label for="password">Créer un Mot de Passe:</label>
+            <input type="password" id="password" name="password" required>
 
-            <label for="signup-confirm-password">Confirmer le Mot de Passe:</label>
-            <input type="password" id="signup-confirm-password" name="confirm-password" required>
+            <label for="password-confirm">Confirmer le Mot de Passe:</label>
+            <input type="password" id="password-confirm" name="password_confirm" required>
 
-            <button type="submit">S'inscrire</button>        </form>
+            <button type="submit">S'inscrire</button>
+        </form>
+        
+        <!-- Message d'erreur -->
+<div tal:condition="exists:error_message" style="color: red;">
+    <p tal:content="error_message">Ici, le message d'erreur sera affiché si error_message existe</p>
+</div>
+
     </div>
 </body>
 </html>

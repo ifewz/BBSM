@@ -8,17 +8,23 @@
     <div class="form-container">
         <!-- Formulaire de connexion -->
         <h2>Connexion</h2>
-        <form id="login-form">
-            <label for="login-username">Nom d'utilisateur:</label>
-            <input type="text" id="login-username" name="username" required>
+        <form action="/" method="post">
+            <label for="username">Nom d'utilisateur:</label>
+            <input type="text" id="username" name="username" required>
 
-            <label for="login-password">Mot de passe:</label>
-            <input type="password" id="login-password" name="password" required>
+            <label for="password">Mot de passe:</label>
+            <input type="password" id="password" name="password" required>
 
             <button type="submit">Se connecter</button>
             <p>ou <a href="signup">créer un compte ici</a>.</p>
+
         </form>
+
     </div>
+
+        <div style="text-align: center;">
+                <p tal:condition="error_message" style="color: red;">${error_message}</p>
+            </div>
 
     <script src="scripts.js"></script>
 </body>

@@ -1,6 +1,6 @@
 # BBSM
 
-# NON DU PROJET ET DESCRIPTION : Application de Gestion de Fond d'Écran Communautaire
+# Application de Gestion de Fond d'Écran Communautaire
 
 Cette application web permet aux membres de la communauté de soumettre et de discuter des images de fond d'écran pour la page d'accueil. Les utilisateurs peuvent s'inscrire, se connecter, soumettre des images, et les administrateurs peuvent modérer ces soumissions.
 
